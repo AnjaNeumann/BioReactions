@@ -1,0 +1,1673 @@
+Subsystem	Reaction	Metabolite	Value
+null	EX 35cgmp e	35cgmp_e	-1.0
+null	3-Methoxytyramine exchange	3moxtyr_e	-1.0
+null	EX 4pyrdx e	4pyrdx_e	-1.0
+null	5 Amino 4 oxopentanoate exchange	5aop_e	-1.0
+null	Acetate exchange	ac_e	-1.0
+null	Acetaldehyde exchange	acald_e	-1.0
+null	N-Acetylneuraminate exchange	acnam_e	-1.0
+null	Adenine exchange	ade_e	-1.0
+null	Adenosine exchange	adn_e	-1.0
+null	EX adrnl e	adrnl_e	-1.0
+null	L-Alanine exchange	ala__L_e	-1.0
+null	L-Arginine exchange	arg__L_e	-1.0
+null	L-Ascorbate exchange	ascb__L_e	-1.0
+null	EX bilglcur e	bilglcur_e	-1.0
+null	Calcium exchange	ca2_e	-1.0
+null	EX camp e	camp_e	-1.0
+null	Choline exchange	chol_e	-1.0
+null	Chloride exchange	cl_e	-1.0
+null	EX co LPAREN e RPAREN 	co_e	-1.0
+null	CO2 exchange	co2_e	-1.0
+null	L-Cysteine exchange	cys__L_e	-1.0
+null	EX dhdascb e	dhdascb_e	-1.0
+null	Dopamine exchange	dopa_e	-1.0
+null	Ethanolamine exchange	etha_e	-1.0
+null	Fe2+ exchange	fe2_e	-1.0
+null	D-Fructose exchange	fru_e	-1.0
+null	Fumarate exchange	fum_e	-1.0
+null	D-Galactose exchange	gal_e	-1.0
+null	D-Glucosamine exchange	gam_e	-1.0
+null	L-Glutamine exchange	gln__L_e	-1.0
+null	EX gluala e	gluala_e	-1.0
+null	Glycine exchange	gly_e	-1.0
+null	Glycerol exchange	glyc_e	-1.0
+null	Oxidized glutathione exchange	gthox_e	-1.0
+null	H+ exchange	h_e	-1.0
+null	H2O exchange	h2o_e	-1.0
+null	Hydrogen peroxide exchange	h2o2_e	-1.0
+null	EX hco3 LPAREN e RPAREN 	hco3_e	-1.0
+null	Hexadecanoate (n-C16:0) exchange	hdca_e	-1.0
+null	Hypoxanthine exchange	hxan_e	-1.0
+null	Inosine exchange	ins_e	-1.0
+null	K+ exchange	k_e	-1.0
+null	D-lactate exchange	lac__D_e	-1.0
+null	L-Lactate exchange	lac__L_e	-1.0
+null	EX leuktrA4 e	leuktrA4_e	-1.0
+null	EX leuktrB4 e	leuktrB4_e	-1.0
+null	EX lnlc e	lnlc_e	-1.0
+null	L-Malate exchange	mal__L_e	-1.0
+null	D-Mannose exchange	man_e	-1.0
+null	EX mepi e	mepi_e	-1.0
+null	L-Methionine exchange	met__L_e	-1.0
+null	Sodium exchange	na1_e	-1.0
+null	Nicotinate exchange	nac_e	-1.0
+null	Nicotinamide exchange	ncam_e	-1.0
+null	Ammonia exchange	nh4_e	-1.0
+null	L-Normetanephrine exchange	normete__L_e	-1.0
+null	EX nrpphr e	nrpphr_e	-1.0
+null	O2 exchange	o2_e	-1.0
+null	Octadecenoate (n-C18:1) exchange	ocdcea_e	-1.0
+null	Orotate exchange	orot_e	-1.0
+null	L-Phenylalanine exchange	phe__L_e	-1.0
+null	Phosphate exchange	pi_e	-1.0
+null	Putrescine exchange	ptrc_e	-1.0
+null	Pyridoxamine exchange	pydam_e	-1.0
+null	Pyridoxal exchange	pydx_e	-1.0
+null	Pyridoxine exchange	pydxn_e	-1.0
+null	Pyruvate exchange	pyr_e	-1.0
+null	Riboflavin exchange	ribflv_e	-1.0
+null	Spermidine exchange	spmd_e	-1.0
+null	Spermine exchange	sprm_e	-1.0
+null	Thiamin exchange	thm_e	-1.0
+null	Thiamin monophosphate exchange	thmmp_e	-1.0
+null	Urea exchange	urea_e	-1.0
+null	Uridine exchange	uri_e	-1.0
+&apos;	Demand NADH	nadh_c	-1.0
+&apos;	Demand NADH	h_c	1.0
+&apos;	Demand NADH	nad_c	1.0
+Miscellaneous	HCO3 equilibration reaction	h2o_c	-1.0
+Miscellaneous	HCO3 equilibration reaction	co2_c	-1.0
+Miscellaneous	HCO3 equilibration reaction	hco3_c	1.0
+Miscellaneous	HCO3 equilibration reaction	h_c	1.0
+Vitamin B6 Metabolism	Pyridoxine 5'-phosphate oxidase	pdx5p_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine 5'-phosphate oxidase	pydx5p_c	1.0
+Vitamin B6 Metabolism	Pyridoxine 5'-phosphate oxidase	o2_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine 5'-phosphate oxidase	h2o2_c	1.0
+Vitamin B6 Metabolism	Pyridoxine 5-phosphate phosphatase	pdx5p_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine 5-phosphate phosphatase	pydxn_c	1.0
+Vitamin B6 Metabolism	Pyridoxine 5-phosphate phosphatase	h2o_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine 5-phosphate phosphatase	pi_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	nh4_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	pyam5p_c	-1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	pydx5p_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	o2_c	-1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	h2o_c	-1.0
+Vitamin B6 Metabolism	Pyridoxamine 5'-phosphate oxidase	h2o2_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine kinase	pyam5p_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine kinase	adp_c	1.0
+Vitamin B6 Metabolism	Pyridoxamine kinase	pydam_c	-1.0
+Vitamin B6 Metabolism	Pyridoxamine kinase	atp_c	-1.0
+Vitamin B6 Metabolism	Pyridoxamine kinase	h_c	1.0
+Vitamin B6 Metabolism	PYDXDH	o2_c	-1.0
+Vitamin B6 Metabolism	PYDXDH	pydx_c	-1.0
+Vitamin B6 Metabolism	PYDXDH	h2o_c	-1.0
+Vitamin B6 Metabolism	PYDXDH	4pyrdx_c	1.0
+Vitamin B6 Metabolism	PYDXDH	h2o2_c	1.0
+Vitamin B6 Metabolism	Pyridoxal kinase	pydx5p_c	1.0
+Vitamin B6 Metabolism	Pyridoxal kinase	pydx_c	-1.0
+Vitamin B6 Metabolism	Pyridoxal kinase	adp_c	1.0
+Vitamin B6 Metabolism	Pyridoxal kinase	atp_c	-1.0
+Vitamin B6 Metabolism	Pyridoxal kinase	h_c	1.0
+Vitamin B6 Metabolism	Pyridoxine kinase	pdx5p_c	1.0
+Vitamin B6 Metabolism	Pyridoxine kinase	adp_c	1.0
+Vitamin B6 Metabolism	Pyridoxine kinase	pydxn_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine kinase	atp_c	-1.0
+Vitamin B6 Metabolism	Pyridoxine kinase	h_c	1.0
+Vitamin B6 Metabolism	Pyridoxal 5-phosphate phosphatase	pydx5p_c	-1.0
+Vitamin B6 Metabolism	Pyridoxal 5-phosphate phosphatase	pydx_c	1.0
+Vitamin B6 Metabolism	Pyridoxal 5-phosphate phosphatase	h2o_c	-1.0
+Vitamin B6 Metabolism	Pyridoxal 5-phosphate phosphatase	pi_c	1.0
+Glutamate metabolism	Glutamine synthetase	nh4_c	-1.0
+Glutamate metabolism	Glutamine synthetase	gln__L_c	1.0
+Glutamate metabolism	Glutamine synthetase	adp_c	1.0
+Glutamate metabolism	Glutamine synthetase	glu__L_c	-1.0
+Glutamate metabolism	Glutamine synthetase	pi_c	1.0
+Glutamate metabolism	Glutamine synthetase	atp_c	-1.0
+Glutamate metabolism	Glutamine synthetase	h_c	1.0
+Glutamate metabolism	Glutathione oxidoreductase	gthrd_c	2.0
+Glutamate metabolism	Glutathione oxidoreductase	nadph_c	-1.0
+Glutamate metabolism	Glutathione oxidoreductase	nadp_c	1.0
+Glutamate metabolism	Glutathione oxidoreductase	gthox_c	-1.0
+Glutamate metabolism	Glutathione oxidoreductase	h_c	-1.0
+Ascorbate and Aldarate Metabolism	GTHDH	gthrd_c	-2.0
+Ascorbate and Aldarate Metabolism	GTHDH	dhdascb_c	-1.0
+Ascorbate and Aldarate Metabolism	GTHDH	gthox_c	1.0
+Ascorbate and Aldarate Metabolism	GTHDH	ascb__L_c	1.0
+Pyrimidine Biosynthesis	Orotidine-5'-phosphate decarboxylase	orot5p_c	-1.0
+Pyrimidine Biosynthesis	Orotidine-5'-phosphate decarboxylase	co2_c	1.0
+Pyrimidine Biosynthesis	Orotidine-5'-phosphate decarboxylase	h_c	-1.0
+Pyrimidine Biosynthesis	Orotidine-5'-phosphate decarboxylase	ump_c	1.0
+Pyrimidine Biosynthesis	Orotate phosphoribosyltransferase	ppi_c	-1.0
+Pyrimidine Biosynthesis	Orotate phosphoribosyltransferase	orot_c	1.0
+Pyrimidine Biosynthesis	Orotate phosphoribosyltransferase	orot5p_c	-1.0
+Pyrimidine Biosynthesis	Orotate phosphoribosyltransferase	prpp_c	1.0
+Glutathione Metabolism	GGLUCT	5oxpro_c	1.0
+Glutathione Metabolism	GGLUCT	gluala_e	-1.0
+Glutathione Metabolism	GGLUCT	ala__L_c	1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	adp_c	1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	glu__L_c	-1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	cys__L_c	-1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	pi_c	1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	atp_c	-1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	h_c	1.0
+Glutathione Metabolism	Gamma-glutamylcysteine synthetase	glucys_c	1.0
+Glutathione Metabolism	Glutathione peridoxase	gthrd_c	-2.0
+Glutathione Metabolism	Glutathione peridoxase	h2o_c	2.0
+Glutathione Metabolism	Glutathione peridoxase	gthox_c	1.0
+Glutathione Metabolism	Glutathione peridoxase	h2o2_c	-1.0
+Glutathione Metabolism	Glutathione synthetase	gthrd_c	1.0
+Glutathione Metabolism	Glutathione synthetase	gly_c	-1.0
+Glutathione Metabolism	Glutathione synthetase	adp_c	1.0
+Glutathione Metabolism	Glutathione synthetase	pi_c	1.0
+Glutathione Metabolism	Glutathione synthetase	atp_c	-1.0
+Glutathione Metabolism	Glutathione synthetase	glucys_c	-1.0
+Glutathione Metabolism	Glutathione synthetase	h_c	1.0
+Glutathione Metabolism	OPAH	5oxpro_c	-1.0
+Glutathione Metabolism	OPAH	adp_c	1.0
+Glutathione Metabolism	OPAH	h2o_c	-2.0
+Glutathione Metabolism	OPAH	glu__L_c	1.0
+Glutathione Metabolism	OPAH	pi_c	1.0
+Glutathione Metabolism	OPAH	atp_c	-1.0
+Glutathione Metabolism	OPAH	h_c	1.0
+Salvage Pathway	Adenine phosphoribosyltransferase	amp_c	1.0
+Salvage Pathway	Adenine phosphoribosyltransferase	ppi_c	1.0
+Salvage Pathway	Adenine phosphoribosyltransferase	ade_c	-1.0
+Salvage Pathway	Adenine phosphoribosyltransferase	prpp_c	-1.0
+Salvage Pathway	Guanine phosphoribosyltransferase	gmp_c	1.0
+Salvage Pathway	Guanine phosphoribosyltransferase	ppi_c	1.0
+Salvage Pathway	Guanine phosphoribosyltransferase	gua_c	-1.0
+Salvage Pathway	Guanine phosphoribosyltransferase	prpp_c	-1.0
+Salvage Pathway	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)	hxan_c	-1.0
+Salvage Pathway	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)	ppi_c	1.0
+Salvage Pathway	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)	imp_c	1.0
+Salvage Pathway	Hypoxanthine phosphoribosyltransferase (Hypoxanthine)	prpp_c	-1.0
+Nucleotides	Adenylate kinase	amp_c	-1.0
+Nucleotides	Adenylate kinase	adp_c	2.0
+Nucleotides	Adenylate kinase	atp_c	-1.0
+Nucleotides	Adenylate cyclase	ppi_c	1.0
+Nucleotides	Adenylate cyclase	camp_c	1.0
+Nucleotides	Adenylate cyclase	atp_c	-1.0
+Nucleotides	Adenosine kinase	amp_c	1.0
+Nucleotides	Adenosine kinase	adp_c	1.0
+Nucleotides	Adenosine kinase	adn_c	-1.0
+Nucleotides	Adenosine kinase	atp_c	-1.0
+Nucleotides	Adenosine kinase	h_c	1.0
+Nucleotides	Adenosine monophosphate deaminase	nh4_c	1.0
+Nucleotides	Adenosine monophosphate deaminase	amp_c	-1.0
+Nucleotides	Adenosine monophosphate deaminase	h2o_c	-1.0
+Nucleotides	Adenosine monophosphate deaminase	imp_c	1.0
+Nucleotides	Adenosine monophosphate deaminase	h_c	-1.0
+Nucleotides	AP4AH1	amp_c	1.0
+Nucleotides	AP4AH1	h2o_c	-1.0
+Nucleotides	AP4AH1	ap4a_c	-1.0
+Nucleotides	AP4AH1	atp_c	1.0
+Nucleotides	AP4AH1	h_c	2.0
+Nucleotides	Cytidylate kinase (CMP)	cdp_c	1.0
+Nucleotides	Cytidylate kinase (CMP)	adp_c	1.0
+Nucleotides	Cytidylate kinase (CMP)	atp_c	-1.0
+Nucleotides	Cytidylate kinase (CMP)	cmp_c	-1.0
+Nucleotides	Guanylate kinase (GMP:ATP)	gmp_c	-1.0
+Nucleotides	Guanylate kinase (GMP:ATP)	adp_c	1.0
+Nucleotides	Guanylate kinase (GMP:ATP)	atp_c	-1.0
+Nucleotides	Guanylate kinase (GMP:ATP)	gdp_c	1.0
+Nucleotides	GMP reductase	gmp_c	-1.0
+Nucleotides	GMP reductase	nh4_c	1.0
+Nucleotides	GMP reductase	nadph_c	-1.0
+Nucleotides	GMP reductase	nadp_c	1.0
+Nucleotides	GMP reductase	imp_c	1.0
+Nucleotides	GMP reductase	h_c	-2.0
+Nucleotides	GMP synthase	gmp_c	1.0
+Nucleotides	GMP synthase	xmp_c	-1.0
+Nucleotides	GMP synthase	gln__L_c	-1.0
+Nucleotides	GMP synthase	amp_c	1.0
+Nucleotides	GMP synthase	ppi_c	1.0
+Nucleotides	GMP synthase	h2o_c	-1.0
+Nucleotides	GMP synthase	glu__L_c	1.0
+Nucleotides	GMP synthase	atp_c	-1.0
+Nucleotides	GMP synthase	h_c	2.0
+Nucleotides	Guanylate cyclase	ppi_c	1.0
+Nucleotides	Guanylate cyclase	gtp_c	-1.0
+Nucleotides	Guanylate cyclase	35cgmp_c	1.0
+Nucleotides	IMP dehydrogenase	nadh_c	1.0
+Nucleotides	IMP dehydrogenase	xmp_c	1.0
+Nucleotides	IMP dehydrogenase	h2o_c	-1.0
+Nucleotides	IMP dehydrogenase	imp_c	-1.0
+Nucleotides	IMP dehydrogenase	h_c	1.0
+Nucleotides	IMP dehydrogenase	nad_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:GDP)	gtp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:GDP)	adp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:GDP)	atp_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:GDP)	gdp_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:UDP)	utp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:UDP)	adp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:UDP)	udp_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:UDP)	atp_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:CDP)	cdp_c	-1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:CDP)	adp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:CDP)	ctp_c	1.0
+Nucleotides	Nucleoside-diphosphate kinase (ATP:CDP)	atp_c	-1.0
+Nucleotides	5'-nucleotidase (AMP)	amp_c	-1.0
+Nucleotides	5'-nucleotidase (AMP)	h2o_c	-1.0
+Nucleotides	5'-nucleotidase (AMP)	pi_c	1.0
+Nucleotides	5'-nucleotidase (AMP)	adn_c	1.0
+Nucleotides	5'-nucleotidase (GMP)	gmp_c	-1.0
+Nucleotides	5'-nucleotidase (GMP)	gsn_c	1.0
+Nucleotides	5'-nucleotidase (GMP)	h2o_c	-1.0
+Nucleotides	5'-nucleotidase (GMP)	pi_c	1.0
+Nucleotides	3',5'-cyclic-nucleotide phosphodiesterase	amp_c	1.0
+Nucleotides	3',5'-cyclic-nucleotide phosphodiesterase	h2o_c	-1.0
+Nucleotides	3',5'-cyclic-nucleotide phosphodiesterase	camp_c	-1.0
+Nucleotides	3',5'-cyclic-nucleotide phosphodiesterase	h_c	1.0
+Nucleotides	Purine-nucleoside phosphorylase (Adenosine)	ade_c	1.0
+Nucleotides	Purine-nucleoside phosphorylase (Adenosine)	pi_c	-1.0
+Nucleotides	Purine-nucleoside phosphorylase (Adenosine)	adn_c	-1.0
+Nucleotides	Purine-nucleoside phosphorylase (Adenosine)	r1p_c	1.0
+Nucleotides	UMP kinase	adp_c	1.0
+Nucleotides	UMP kinase	udp_c	1.0
+Nucleotides	UMP kinase	atp_c	-1.0
+Nucleotides	UMP kinase	ump_c	-1.0
+Fructose and Mannose Metabolism	Fructose 2 6 bisphosphate 2 phosphatase	f6p_c	1.0
+Fructose and Mannose Metabolism	Fructose 2 6 bisphosphate 2 phosphatase	h2o_c	-1.0
+Fructose and Mannose Metabolism	Fructose 2 6 bisphosphate 2 phosphatase	f26bp_c	-1.0
+Fructose and Mannose Metabolism	Fructose 2 6 bisphosphate 2 phosphatase	pi_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-mannose:ATP)	man_c	-1.0
+Fructose and Mannose Metabolism	Hexokinase (D-mannose:ATP)	adp_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-mannose:ATP)	atp_c	-1.0
+Fructose and Mannose Metabolism	Hexokinase (D-mannose:ATP)	h_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-mannose:ATP)	man6p_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-fructose:ATP)	f6p_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-fructose:ATP)	adp_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-fructose:ATP)	atp_c	-1.0
+Fructose and Mannose Metabolism	Hexokinase (D-fructose:ATP)	h_c	1.0
+Fructose and Mannose Metabolism	Hexokinase (D-fructose:ATP)	fru_c	-1.0
+Fructose and Mannose Metabolism	Mannose-6-phosphate isomerase	f6p_c	1.0
+Fructose and Mannose Metabolism	Mannose-6-phosphate isomerase	man6p_c	-1.0
+Fructose and Mannose Metabolism	6 phosphofructo 2 kinase	f6p_c	-1.0
+Fructose and Mannose Metabolism	6 phosphofructo 2 kinase	adp_c	1.0
+Fructose and Mannose Metabolism	6 phosphofructo 2 kinase	f26bp_c	1.0
+Fructose and Mannose Metabolism	6 phosphofructo 2 kinase	atp_c	-1.0
+Fructose and Mannose Metabolism	6 phosphofructo 2 kinase	h_c	1.0
+Fructose and Mannose Metabolism	Phosphomannomutase	man6p_c	1.0
+Fructose and Mannose Metabolism	Phosphomannomutase	man1p_c	-1.0
+Fructose and Mannose Metabolism	D sorbitol dehydrogenase  D fructose producing 	nadh_c	1.0
+Fructose and Mannose Metabolism	D sorbitol dehydrogenase  D fructose producing 	sbt__D_c	-1.0
+Fructose and Mannose Metabolism	D sorbitol dehydrogenase  D fructose producing 	h_c	1.0
+Fructose and Mannose Metabolism	D sorbitol dehydrogenase  D fructose producing 	nad_c	-1.0
+Fructose and Mannose Metabolism	D sorbitol dehydrogenase  D fructose producing 	fru_c	1.0
+Fructose and Mannose Metabolism	D sorbitol reductase	sbt__D_c	1.0
+Fructose and Mannose Metabolism	D sorbitol reductase	nadph_c	-1.0
+Fructose and Mannose Metabolism	D sorbitol reductase	nadp_c	1.0
+Fructose and Mannose Metabolism	D sorbitol reductase	glc__D_c	-1.0
+Fructose and Mannose Metabolism	D sorbitol reductase	h_c	-1.0
+Phenylalanine metabolism	Phenylalanine transaminase	phpyr_c	1.0
+Phenylalanine metabolism	Phenylalanine transaminase	akg_c	-1.0
+Phenylalanine metabolism	Phenylalanine transaminase	glu__L_c	1.0
+Phenylalanine metabolism	Phenylalanine transaminase	phe__L_c	-1.0
+Thiamine Metabolism	Thiamin pyrophosphatase	thmpp_c	-1.0
+Thiamine Metabolism	Thiamin pyrophosphatase	h2o_c	-1.0
+Thiamine Metabolism	Thiamin pyrophosphatase	pi_c	1.0
+Thiamine Metabolism	Thiamin pyrophosphatase	h_c	1.0
+Thiamine Metabolism	Thiamin pyrophosphatase	thmmp_c	1.0
+Thiamine Metabolism	THMTP	thmpp_c	1.0
+Thiamine Metabolism	THMTP	h2o_c	-1.0
+Thiamine Metabolism	THMTP	thmtp_c	-1.0
+Thiamine Metabolism	THMTP	pi_c	1.0
+Thiamine Metabolism	THMTP	h_c	1.0
+Thiamine Metabolism	Thiamine diphosphokinase	thmpp_c	1.0
+Thiamine Metabolism	Thiamine diphosphokinase	amp_c	1.0
+Thiamine Metabolism	Thiamine diphosphokinase	atp_c	-1.0
+Thiamine Metabolism	Thiamine diphosphokinase	h_c	1.0
+Thiamine Metabolism	Thiamine diphosphokinase	thm_c	-1.0
+Thiamine Metabolism	Thiamine diphosphate kinase	thmpp_c	-1.0
+Thiamine Metabolism	Thiamine diphosphate kinase	adp_c	1.0
+Thiamine Metabolism	Thiamine diphosphate kinase	thmtp_c	1.0
+Thiamine Metabolism	Thiamine diphosphate kinase	atp_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 16 0	pail_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 16 0	cdpdag_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 16 0	inost_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 16 0	cmp_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 16 0	h_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 1	cdpdag_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 1	pail_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 1	inost_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 2	cdpdag_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 2	inost_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 2	pail_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 16 0 18 2	h_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 1	pail_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 1	cdpdag_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 1	inost_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 2	pail_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 2	cdpdag_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 2	inost_c	-1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CDIPTr 18 1 18 2	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	cdpdag_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	pail_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	inost_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	cmp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	pail_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	cdpdag_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	inost_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	cmp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 16 0	ppi_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 16 0	pa_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 16 0	cdpdag_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 16 0	ctp_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 16 0	h_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 1	ppi_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 1	cdpdag_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 1	pa_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 1	ctp_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 1	h_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 2	ppi_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 2	pa_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 2	cdpdag_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 2	ctp_c	-1.0
+Glycerophospholipid Metabolism	CDS 16 0 18 2	h_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 1	ppi_c	1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 1	pa_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 1	cdpdag_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 1	ctp_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 1	h_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 2	cdpdag_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 2	ppi_c	1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 2	pa_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 2	ctp_c	-1.0
+Glycerophospholipid Metabolism	CDS 18 1 18 2	h_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C16:0)	ppi_c	1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C16:0)	cdpdag_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C16:0)	pa_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C16:0)	ctp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C16:0)	h_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C18:1)	ppi_c	1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C18:1)	cdpdag_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C18:1)	pa_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C18:1)	ctp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidate cytidylyltransferase (C18:2,C18:1)	h_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 16 0	pchol_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 16 0	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 16 0	dag_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 16 0	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 16 0	h_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 1	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 1	pchol_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 1	dag_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 2	dag_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 2	pchol_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 2	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTC 16 0 18 2	h_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 1	pchol_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 1	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 1	dag_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 2	pchol_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 2	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 2	dag_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTC 18 1 18 2	h_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C16:0)	dag_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C16:0)	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C16:0)	pchol_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C16:0)	cmp_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C18:1)	pchol_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C18:1)	cdpchol_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C18:1)	cmp_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Choline phosphotransferase (C18:2, C18:1)	dag_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 16 0	cdpea_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 16 0	dag_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 16 0	pe_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 16 0	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 16 0	h_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 1	pe_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 1	cdpea_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 1	dag_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 2	dag_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 2	pe_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 2	cdpea_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTE 16 0 18 2	h_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 1	dag_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 1	cdpea_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 1	pe_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 1	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 1	h_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 2	cdpea_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 2	dag_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 2	pe_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 2	cmp_c	1.0
+Glycerophospholipid Metabolism	CEPTE 18 1 18 2	h_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C16:0)	pe_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C16:0)	dag_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C16:0)	cdpea_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C16:0)	cmp_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C18:1)	cdpea_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C18:1)	pe_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C18:1)	cmp_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine phosphotransferase (C18:2,C18:1)	dag_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	CHLP	h2o_c	-1.0
+Glycerophospholipid Metabolism	CHLP	pi_c	1.0
+Glycerophospholipid Metabolism	CHLP	chol_c	1.0
+Glycerophospholipid Metabolism	CHLP	cholp_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphate cytididyltransferase	ppi_c	1.0
+Glycerophospholipid Metabolism	Choline phosphate cytididyltransferase	cdpchol_c	1.0
+Glycerophospholipid Metabolism	Choline phosphate cytididyltransferase	ctp_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphate cytididyltransferase	cholp_c	-1.0
+Glycerophospholipid Metabolism	Choline phosphate cytididyltransferase	h_c	-1.0
+Glycerophospholipid Metabolism	Choline kinase	adp_c	1.0
+Glycerophospholipid Metabolism	Choline kinase	chol_c	-1.0
+Glycerophospholipid Metabolism	Choline kinase	atp_c	-1.0
+Glycerophospholipid Metabolism	Choline kinase	cholp_c	1.0
+Glycerophospholipid Metabolism	Choline kinase	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	pa_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	dag_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	pa_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	dag_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	dag_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	pa_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	pa_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	dag_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	pa_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	dag_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	dag_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	pa_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	pa_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	dag_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine kinase	etha_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine kinase	ethamp_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine kinase	adp_c	1.0
+Glycerophospholipid Metabolism	Ethanolamine kinase	atp_c	-1.0
+Glycerophospholipid Metabolism	Ethanolamine kinase	h_c	1.0
+Glycerophospholipid Metabolism	ETHP	etha_c	1.0
+Glycerophospholipid Metabolism	ETHP	ethamp_c	-1.0
+Glycerophospholipid Metabolism	ETHP	h2o_c	-1.0
+Glycerophospholipid Metabolism	ETHP	pi_c	1.0
+Glycerophospholipid Metabolism	Glycerol kinase	glyc3p_c	1.0
+Glycerophospholipid Metabolism	Glycerol kinase	adp_c	1.0
+Glycerophospholipid Metabolism	Glycerol kinase	atp_c	-1.0
+Glycerophospholipid Metabolism	Glycerol kinase	h_c	1.0
+Glycerophospholipid Metabolism	Glycerol kinase	glyc_c	-1.0
+Glycerophospholipid Metabolism	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	glyc3p_c	1.0
+Glycerophospholipid Metabolism	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	g3pc_c	-1.0
+Glycerophospholipid Metabolism	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	h2o_c	-1.0
+Glycerophospholipid Metabolism	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	chol_c	1.0
+Glycerophospholipid Metabolism	Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)	h_c	1.0
+Glycerophospholipid Metabolism	LPASE 16 0	lpchol_hs_16_0_c	-1.0
+Glycerophospholipid Metabolism	LPASE 16 0	g3pc_c	1.0
+Glycerophospholipid Metabolism	LPASE 16 0	h2o_c	-1.0
+Glycerophospholipid Metabolism	LPASE 16 0	hdca_c	1.0
+Glycerophospholipid Metabolism	LPASE 16 0	h_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 1	ocdcea_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 1	lpchol_hs_18_1_c	-1.0
+Glycerophospholipid Metabolism	LPASE 18 1	g3pc_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 1	h2o_c	-1.0
+Glycerophospholipid Metabolism	LPASE 18 1	h_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 2	lnlc_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 2	lpchol_hs_18_2_c	-1.0
+Glycerophospholipid Metabolism	LPASE 18 2	g3pc_c	1.0
+Glycerophospholipid Metabolism	LPASE 18 2	h2o_c	-1.0
+Glycerophospholipid Metabolism	LPASE 18 2	h_c	1.0
+Glycerophospholipid Metabolism	Phosphoethanolamine cytidyltransferase	ppi_c	1.0
+Glycerophospholipid Metabolism	Phosphoethanolamine cytidyltransferase	ethamp_c	-1.0
+Glycerophospholipid Metabolism	Phosphoethanolamine cytidyltransferase	cdpea_c	1.0
+Glycerophospholipid Metabolism	Phosphoethanolamine cytidyltransferase	ctp_c	-1.0
+Glycerophospholipid Metabolism	Phosphoethanolamine cytidyltransferase	h_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	pail4p_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	pail45p_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	pail45p_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	pail4p_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	pail45p_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	pail4p_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	pail45p_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	pail4p_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	pail45p_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	pail4p_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	pail45p_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	pail4p_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	pail45p_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	pail4p_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 16 0	pail4p_hs_16_0_16_0_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 16 0	pail_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 16 0	adp_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 16 0	atp_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 16 0	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 1	adp_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 1	pail_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 1	atp_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 1	pail4p_hs_16_0_18_1_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 1	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 2	adp_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 2	pail_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 2	atp_c	-1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 2	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 16 0 18 2	pail4p_hs_16_0_18_2_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 1	pail_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 1	adp_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 1	atp_c	-1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 1	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 1	pail4p_hs_18_1_18_1_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 2	pail_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 2	adp_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 2	atp_c	-1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 2	h_c	1.0
+Glycerophospholipid Metabolism	PIK4 18 1 18 2	pail4p_hs_18_1_18_2_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C16:0)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C16:0)	pail_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C16:0)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C16:0)	pail4p_hs_18_2_16_0_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C18 1)	pail_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C18 1)	adp_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C18 1)	pail4p_hs_18_2_18_1_c	1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C18 1)	atp_c	-1.0
+Glycerophospholipid Metabolism	Phosphatidylinositol 4-kinase (C18:2,C18 1)	h_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 16 0	lpchol_hs_16_0_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 16 0	pchol_hs_16_0_16_0_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 16 0	h2o_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 16 0	hdca_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 16 0	h_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 1	ocdcea_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 1	lpchol_hs_16_0_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 1	h2o_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 1	pchol_hs_16_0_18_1_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 1	h_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 2	lnlc_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 2	lpchol_hs_16_0_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 2	pchol_hs_16_0_18_2_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 2	h2o_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 16 0 18 2	h_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 1	ocdcea_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 1	pchol_hs_18_1_18_1_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 1	lpchol_hs_18_1_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 1	h2o_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 1	h_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 2	lnlc_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 2	pchol_hs_18_1_18_2_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 2	lpchol_hs_18_1_c	1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 2	h2o_c	-1.0
+Glycerophospholipid Metabolism	PLA2 2 18 1 18 2	h_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C16:0)	lpchol_hs_18_2_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C16:0)	pchol_hs_18_2_16_0_c	-1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C16:0)	h2o_c	-1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C16:0)	hdca_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C16:0)	h_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C18:1)	ocdcea_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C18:1)	pchol_hs_18_2_18_1_c	-1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C18:1)	lpchol_hs_18_2_c	1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C18:1)	h2o_c	-1.0
+Glycerophospholipid Metabolism	Phospholipase A2 (C18:2,C18:1)	h_c	1.0
+Extracellular exchange	D-Glucose exchange	glc__D_e	-1.0
+Extracellular exchange	L-homocysteine exchange	hcys__L_e	-1.0
+Heme Degradation	Bilirubin UDP-glucuronosyltransferase	bilirub_c	-1.0
+Heme Degradation	Bilirubin UDP-glucuronosyltransferase	udpglcur_c	-1.0
+Heme Degradation	Bilirubin UDP-glucuronosyltransferase	udp_c	1.0
+Heme Degradation	Bilirubin UDP-glucuronosyltransferase	h_c	-2.0
+Heme Degradation	Bilirubin UDP-glucuronosyltransferase	bilglcur_c	1.0
+Heme Degradation	Nad(p)h biliverdin reductase	nadph_c	-1.0
+Heme Degradation	Nad(p)h biliverdin reductase	biliverd_c	-1.0
+Heme Degradation	Nad(p)h biliverdin reductase	bilirub_c	1.0
+Heme Degradation	Nad(p)h biliverdin reductase	nadp_c	1.0
+Heme Degradation	Nad(p)h biliverdin reductase	h_c	-1.0
+Heme Degradation	Heme oxygenase 1	o2_c	-3.0
+Heme Degradation	Heme oxygenase 1	nadph_c	-3.0
+Heme Degradation	Heme oxygenase 1	biliverd_c	1.0
+Heme Degradation	Heme oxygenase 1	h2o_c	3.0
+Heme Degradation	Heme oxygenase 1	nadp_c	3.0
+Heme Degradation	Heme oxygenase 1	fe2_c	1.0
+Heme Degradation	Heme oxygenase 1	pheme_c	-1.0
+Heme Degradation	Heme oxygenase 1	h_c	-5.0
+Heme Degradation	Heme oxygenase 1	co_c	1.0
+Pentose and Glucuronate Interconversions	DGULND	xylu__L_c	1.0
+Pentose and Glucuronate Interconversions	DGULND	co2_c	1.0
+Pentose and Glucuronate Interconversions	DGULND	h_c	-1.0
+Pentose and Glucuronate Interconversions	DGULND	3dhguln_c	-1.0
+Pentose and Glucuronate Interconversions	GULN3D	nadh_c	1.0
+Pentose and Glucuronate Interconversions	GULN3D	h_c	1.0
+Pentose and Glucuronate Interconversions	GULN3D	3dhguln_c	1.0
+Pentose and Glucuronate Interconversions	GULN3D	nad_c	-1.0
+Pentose and Glucuronate Interconversions	GULN3D	guln__L_c	-1.0
+Pentose and Glucuronate Interconversions	Gulonate dehydrogenase	nadph_c	-1.0
+Pentose and Glucuronate Interconversions	Gulonate dehydrogenase	nadp_c	1.0
+Pentose and Glucuronate Interconversions	Gulonate dehydrogenase	glcur_c	-1.0
+Pentose and Glucuronate Interconversions	Gulonate dehydrogenase	h_c	-1.0
+Pentose and Glucuronate Interconversions	Gulonate dehydrogenase	guln__L_c	1.0
+Pentose and Glucuronate Interconversions	UDPGNP	udpglcur_c	-1.0
+Pentose and Glucuronate Interconversions	UDPGNP	glcur_c	1.0
+Pentose and Glucuronate Interconversions	UDPGNP	h2o_c	-1.0
+Pentose and Glucuronate Interconversions	UDPGNP	udp_c	1.0
+Pentose and Glucuronate Interconversions	UDPGNP	h_c	1.0
+Pentose and Glucuronate Interconversions	Xylulokinase	adp_c	1.0
+Pentose and Glucuronate Interconversions	Xylulokinase	atp_c	-1.0
+Pentose and Glucuronate Interconversions	Xylulokinase	xu5p__D_c	1.0
+Pentose and Glucuronate Interconversions	Xylulokinase	h_c	1.0
+Pentose and Glucuronate Interconversions	Xylulokinase	xylu__D_c	-1.0
+Pentose and Glucuronate Interconversions	Xylitol dehydrogenase  D xyulose forming 	nadh_c	1.0
+Pentose and Glucuronate Interconversions	Xylitol dehydrogenase  D xyulose forming 	xylt_c	-1.0
+Pentose and Glucuronate Interconversions	Xylitol dehydrogenase  D xyulose forming 	h_c	1.0
+Pentose and Glucuronate Interconversions	Xylitol dehydrogenase  D xyulose forming 	nad_c	-1.0
+Pentose and Glucuronate Interconversions	Xylitol dehydrogenase  D xyulose forming 	xylu__D_c	1.0
+Pentose and Glucuronate Interconversions	XYLUR	nadph_c	-1.0
+Pentose and Glucuronate Interconversions	XYLUR	xylu__L_c	-1.0
+Pentose and Glucuronate Interconversions	XYLUR	nadp_c	1.0
+Pentose and Glucuronate Interconversions	XYLUR	xylt_c	1.0
+Pentose and Glucuronate Interconversions	XYLUR	h_c	-1.0
+Riboflavin Metabolism	ACP1 FMN	ribflv_c	1.0
+Riboflavin Metabolism	ACP1 FMN	h2o_c	-1.0
+Riboflavin Metabolism	ACP1 FMN	pi_c	1.0
+Riboflavin Metabolism	ACP1 FMN	fmn_c	-1.0
+Riboflavin Metabolism	FADDP	amp_c	1.0
+Riboflavin Metabolism	FADDP	fad_c	-1.0
+Riboflavin Metabolism	FADDP	h2o_c	-1.0
+Riboflavin Metabolism	FADDP	fmn_c	1.0
+Riboflavin Metabolism	FADDP	h_c	2.0
+Riboflavin Metabolism	FMN adenylyltransferase	ppi_c	1.0
+Riboflavin Metabolism	FMN adenylyltransferase	fad_c	1.0
+Riboflavin Metabolism	FMN adenylyltransferase	fmn_c	-1.0
+Riboflavin Metabolism	FMN adenylyltransferase	atp_c	-1.0
+Riboflavin Metabolism	FMN adenylyltransferase	h_c	-1.0
+Riboflavin Metabolism	Riboflavin kinase	ribflv_c	-1.0
+Riboflavin Metabolism	Riboflavin kinase	adp_c	1.0
+Riboflavin Metabolism	Riboflavin kinase	fmn_c	1.0
+Riboflavin Metabolism	Riboflavin kinase	atp_c	-1.0
+Riboflavin Metabolism	Riboflavin kinase	h_c	1.0
+NAD Metabolism	NAD kinase	adp_c	1.0
+NAD Metabolism	NAD kinase	nadp_c	1.0
+NAD Metabolism	NAD kinase	atp_c	-1.0
+NAD Metabolism	NAD kinase	h_c	1.0
+NAD Metabolism	NAD kinase	nad_c	-1.0
+NAD Metabolism	NADPN	ncam_c	1.0
+NAD Metabolism	NADPN	adprbp_c	1.0
+NAD Metabolism	NADPN	h2o_c	-1.0
+NAD Metabolism	NADPN	nadp_c	-1.0
+NAD Metabolism	NADPN	h_c	1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	dnad_c	-1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	gln__L_c	-1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	amp_c	1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	ppi_c	1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	h2o_c	-1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	glu__L_c	1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	atp_c	-1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	h_c	1.0
+NAD Metabolism	Nicotinate-mononucleotide adenylyltransferase	nad_c	1.0
+NAD Metabolism	NICRNS	adp_c	1.0
+NAD Metabolism	NICRNS	nicrns_c	-1.0
+NAD Metabolism	NICRNS	atp_c	-1.0
+NAD Metabolism	NICRNS	nicrnt_c	1.0
+NAD Metabolism	NICRNS	h_c	1.0
+NAD Metabolism	Nicotinamide-nucleotide adenylyltransferase	nmn_c	-1.0
+NAD Metabolism	Nicotinamide-nucleotide adenylyltransferase	ppi_c	1.0
+NAD Metabolism	Nicotinamide-nucleotide adenylyltransferase	atp_c	-1.0
+NAD Metabolism	Nicotinamide-nucleotide adenylyltransferase	h_c	-1.0
+NAD Metabolism	Nicotinamide-nucleotide adenylyltransferase	nad_c	1.0
+NAD Metabolism	Nicotinate-nucleotide adenylyltransferase	dnad_c	1.0
+NAD Metabolism	Nicotinate-nucleotide adenylyltransferase	ppi_c	1.0
+NAD Metabolism	Nicotinate-nucleotide adenylyltransferase	atp_c	-1.0
+NAD Metabolism	Nicotinate-nucleotide adenylyltransferase	nicrnt_c	-1.0
+NAD Metabolism	Nicotinate-nucleotide adenylyltransferase	h_c	-1.0
+NAD Metabolism	NP1	pi_c	1.0
+NAD Metabolism	NP1	nicrns_c	1.0
+NAD Metabolism	NP1	r1p_c	-1.0
+NAD Metabolism	NP1	h_c	-1.0
+NAD Metabolism	NP1	nac_c	-1.0
+NAD Metabolism	NT5C	h2o_c	-1.0
+NAD Metabolism	NT5C	pi_c	1.0
+NAD Metabolism	NT5C	nicrns_c	1.0
+NAD Metabolism	NT5C	nicrnt_c	-1.0
+NAD Metabolism	Nicotinamide ribonucleotide phosphohydrolase	nmn_c	-1.0
+NAD Metabolism	Nicotinamide ribonucleotide phosphohydrolase	rnam_c	1.0
+NAD Metabolism	Nicotinamide ribonucleotide phosphohydrolase	h2o_c	-1.0
+NAD Metabolism	Nicotinamide ribonucleotide phosphohydrolase	pi_c	1.0
+NAD Metabolism	Purine nucleoside phosphorylase	ncam_c	1.0
+NAD Metabolism	Purine nucleoside phosphorylase	rnam_c	-1.0
+NAD Metabolism	Purine nucleoside phosphorylase	pi_c	-1.0
+NAD Metabolism	Purine nucleoside phosphorylase	r1p_c	1.0
+NAD Metabolism	Purine nucleoside phosphorylase	h_c	1.0
+NAD Metabolism	Ribosylnicotinamide kinase	nmn_c	1.0
+NAD Metabolism	Ribosylnicotinamide kinase	adp_c	1.0
+NAD Metabolism	Ribosylnicotinamide kinase	rnam_c	-1.0
+NAD Metabolism	Ribosylnicotinamide kinase	atp_c	-1.0
+NAD Metabolism	Ribosylnicotinamide kinase	h_c	1.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	3moxtyr_e	3.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	adp_c	2.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	h2o_c	-2.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	3moxtyr_c	-3.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	pi_c	2.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	atp_c	-2.0
+Transport, Extracellular	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	h_c	2.0
+Transport, Extracellular	4PYRDX	adp_c	1.0
+Transport, Extracellular	4PYRDX	h2o_c	-1.0
+Transport, Extracellular	4PYRDX	4pyrdx_e	1.0
+Transport, Extracellular	4PYRDX	pi_c	1.0
+Transport, Extracellular	4PYRDX	4pyrdx_c	-1.0
+Transport, Extracellular	4PYRDX	atp_c	-1.0
+Transport, Extracellular	4PYRDX	h_c	1.0
+Transport, Extracellular	5 Aminolevulinate transport in via proton symport	5aop_e	-1.0
+Transport, Extracellular	5 Aminolevulinate transport in via proton symport	5aop_c	1.0
+Transport, Extracellular	5 Aminolevulinate transport in via proton symport	h_c	1.0
+Transport, Extracellular	5 Aminolevulinate transport in via proton symport	h_e	-1.0
+Transport, Extracellular	Acetaldehyde reversible transport	acald_e	-1.0
+Transport, Extracellular	Acetaldehyde reversible transport	acald_c	1.0
+Transport, Extracellular	N-acetylneuraminate proton symport	acnam_c	1.0
+Transport, Extracellular	N-acetylneuraminate proton symport	acnam_e	-1.0
+Transport, Extracellular	N-acetylneuraminate proton symport	h_c	1.0
+Transport, Extracellular	N-acetylneuraminate proton symport	h_e	-1.0
+Transport, Extracellular	Acetate reversible transport via proton symport	ac_e	-1.0
+Transport, Extracellular	Acetate reversible transport via proton symport	ac_c	1.0
+Transport, Extracellular	Acetate reversible transport via proton symport	h_c	1.0
+Transport, Extracellular	Acetate reversible transport via proton symport	h_e	-1.0
+Transport, Extracellular	ADEt	ade_c	1.0
+Transport, Extracellular	ADEt	ade_e	-1.0
+Transport, Extracellular	ADNt	adn_e	-1.0
+Transport, Extracellular	ADNt	adn_c	1.0
+Transport, Extracellular	Adrenaline (epinephrine) transport, uniport	adrnl_e	-1.0
+Transport, Extracellular	Adrenaline (epinephrine) transport, uniport	adrnl_c	1.0
+Transport, Extracellular	ALAt4	na1_c	1.0
+Transport, Extracellular	ALAt4	ala__L_c	1.0
+Transport, Extracellular	ALAt4	ala__L_e	-1.0
+Transport, Extracellular	ALAt4	na1_e	-1.0
+Transport, Extracellular	ARGt5r	arg__L_c	1.0
+Transport, Extracellular	ARGt5r	arg__L_e	-1.0
+Transport, Extracellular	ASCBt	ascb__L_e	-1.0
+Transport, Extracellular	ASCBt	ascb__L_c	1.0
+Transport, Extracellular	BILGLCURt	bilglcur_e	-1.0
+Transport, Extracellular	BILGLCURt	hco3_e	1.0
+Transport, Extracellular	BILGLCURt	hco3_c	-1.0
+Transport, Extracellular	BILGLCURt	bilglcur_c	1.0
+Transport, Extracellular	Calcium (Ca+2) transport via diffusion (extracellular to periplasm)	ca2_e	-1.0
+Transport, Extracellular	Calcium (Ca+2) transport via diffusion (extracellular to periplasm)	ca2_c	1.0
+Transport, Extracellular	CAATPS	ca2_e	2.0
+Transport, Extracellular	CAATPS	ca2_c	-2.0
+Transport, Extracellular	CAATPS	adp_c	1.0
+Transport, Extracellular	CAATPS	h2o_c	-1.0
+Transport, Extracellular	CAATPS	pi_c	1.0
+Transport, Extracellular	CAATPS	atp_c	-1.0
+Transport, Extracellular	CAATPS	h_e	1.0
+Transport, Extracellular	CAMPt	adp_c	1.0
+Transport, Extracellular	CAMPt	h2o_c	-1.0
+Transport, Extracellular	CAMPt	pi_c	1.0
+Transport, Extracellular	CAMPt	atp_c	-1.0
+Transport, Extracellular	CAMPt	camp_c	-1.0
+Transport, Extracellular	CAMPt	h_c	1.0
+Transport, Extracellular	CAMPt	camp_e	1.0
+Transport, Extracellular	CGMPt	adp_c	1.0
+Transport, Extracellular	CGMPt	h2o_c	-1.0
+Transport, Extracellular	CGMPt	pi_c	1.0
+Transport, Extracellular	CGMPt	35cgmp_c	-1.0
+Transport, Extracellular	CGMPt	35cgmp_e	1.0
+Transport, Extracellular	CGMPt	atp_c	-1.0
+Transport, Extracellular	CGMPt	h_c	1.0
+Transport, Extracellular	CHOLt4	chol_e	-1.0
+Transport, Extracellular	CHOLt4	na1_c	1.0
+Transport, Extracellular	CHOLt4	chol_c	1.0
+Transport, Extracellular	CHOLt4	na1_e	-1.0
+Transport, Extracellular	CO2 transporter via diffusion	co2_e	-1.0
+Transport, Extracellular	CO2 transporter via diffusion	co2_c	1.0
+Transport, Extracellular	COt	co_e	1.0
+Transport, Extracellular	COt	co_c	-1.0
+Transport, Extracellular	CYStec	cys__L_c	1.0
+Transport, Extracellular	CYStec	cys__L_e	-1.0
+Transport, Extracellular	D lactate transport via proton symport	lac__D_c	1.0
+Transport, Extracellular	D lactate transport via proton symport	h_c	1.0
+Transport, Extracellular	D lactate transport via proton symport	lac__D_e	-1.0
+Transport, Extracellular	D lactate transport via proton symport	h_e	-1.0
+Transport, Extracellular	DHAAt1r	dhdascb_c	1.0
+Transport, Extracellular	DHAAt1r	dhdascb_e	-1.0
+Transport, Extracellular	DOPAtu	dopa_c	1.0
+Transport, Extracellular	DOPAtu	dopa_e	-1.0
+Transport, Extracellular	Ethanolamine transport via diffusion  extracellular 	etha_c	1.0
+Transport, Extracellular	Ethanolamine transport via diffusion  extracellular 	etha_e	-1.0
+Transport, Extracellular	Iron  II  transport	fe2_e	-1.0
+Transport, Extracellular	Iron  II  transport	fe2_c	1.0
+Transport, Extracellular	FRUt1r	fru_e	-1.0
+Transport, Extracellular	FRUt1r	fru_c	1.0
+Transport, Extracellular	Fumarate transport via diffusion (reversible)	fum_e	-1.0
+Transport, Extracellular	Fumarate transport via diffusion (reversible)	fum_c	1.0
+Transport, Extracellular	GALt1r	gal_e	-1.0
+Transport, Extracellular	GALt1r	gal_c	1.0
+Transport, Extracellular	GAMt1r	gam_e	-1.0
+Transport, Extracellular	GAMt1r	gam_c	1.0
+Transport, Extracellular	Glucose transport  uniport 	glc__D_c	1.0
+Transport, Extracellular	Glucose transport  uniport 	glc__D_e	-1.0
+Transport, Extracellular	GLNt4	gln__L_c	1.0
+Transport, Extracellular	GLNt4	na1_c	1.0
+Transport, Extracellular	GLNt4	na1_e	-1.0
+Transport, Extracellular	GLNt4	gln__L_e	-1.0
+Transport, Extracellular	Glycerol transport via channel	glyc_e	1.0
+Transport, Extracellular	Glycerol transport via channel	glyc_c	-1.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	cl_e	-1.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	cl_c	1.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	gly_e	-1.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	gly_c	1.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	na1_c	2.0
+Transport, Extracellular	GLYt7 LPAREN 211 RPAREN r	na1_e	-2.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	adp_c	1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	h2o_c	-1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	pi_c	1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	gthox_c	-1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	gthox_e	1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	atp_c	-1.0
+Transport, Extracellular	Oxidized glutathione irreversible active transport (rbc)	h_c	1.0
+Transport, Extracellular	H2O2t	h2o2_e	-1.0
+Transport, Extracellular	H2O2t	h2o2_c	1.0
+Transport, Extracellular	H2O transport via diffusion	h2o_c	1.0
+Transport, Extracellular	H2O transport via diffusion	h2o_e	-1.0
+Transport, Extracellular	HCO3 CLt	cl_e	1.0
+Transport, Extracellular	HCO3 CLt	cl_c	-1.0
+Transport, Extracellular	HCO3 CLt	hco3_e	-1.0
+Transport, Extracellular	HCO3 CLt	hco3_c	1.0
+Transport, Extracellular	Homocysteine transport (extracellular)	hcys__L_e	-1.0
+Transport, Extracellular	Homocysteine transport (extracellular)	hcys__L_c	1.0
+Transport, Extracellular	Hexadecanoate  n C160  transport in via uniport	hdca_e	-1.0
+Transport, Extracellular	Hexadecanoate  n C160  transport in via uniport	hdca_c	1.0
+Transport, Extracellular	HYXNt	hxan_c	1.0
+Transport, Extracellular	HYXNt	hxan_e	-1.0
+Transport, Extracellular	Proton diffusion	h_c	-1.0
+Transport, Extracellular	Proton diffusion	h_e	1.0
+Transport, Extracellular	INSt	ins_c	1.0
+Transport, Extracellular	INSt	ins_e	-1.0
+Transport, Extracellular	KCCt	k_e	-1.0
+Transport, Extracellular	KCCt	cl_e	-1.0
+Transport, Extracellular	KCCt	cl_c	1.0
+Transport, Extracellular	KCCt	k_c	1.0
+Transport, Extracellular	L lactate reversible transport via proton symport	lac__L_c	1.0
+Transport, Extracellular	L lactate reversible transport via proton symport	lac__L_e	-1.0
+Transport, Extracellular	L lactate reversible transport via proton symport	h_c	1.0
+Transport, Extracellular	L lactate reversible transport via proton symport	h_e	-1.0
+Transport, Extracellular	LEUKTRA4t	leuktrA4_e	-1.0
+Transport, Extracellular	LEUKTRA4t	leuktrA4_c	1.0
+Transport, Extracellular	LEUKTRB4t	leuktrB4_e	-1.0
+Transport, Extracellular	LEUKTRB4t	leuktrB4_c	1.0
+Transport, Extracellular	LNLCt	lnlc_c	1.0
+Transport, Extracellular	LNLCt	lnlc_e	-1.0
+Transport, Extracellular	Malate exchange, diffusion	mal__L_e	-1.0
+Transport, Extracellular	Malate exchange, diffusion	mal__L_c	1.0
+Transport, Extracellular	MANt1r	man_c	1.0
+Transport, Extracellular	MANt1r	man_e	-1.0
+Transport, Extracellular	MEPIVESSte	mepi_c	-3.0
+Transport, Extracellular	MEPIVESSte	mepi_e	3.0
+Transport, Extracellular	MEPIVESSte	adp_c	2.0
+Transport, Extracellular	MEPIVESSte	h2o_c	-2.0
+Transport, Extracellular	MEPIVESSte	pi_c	2.0
+Transport, Extracellular	MEPIVESSte	atp_c	-2.0
+Transport, Extracellular	MEPIVESSte	h_c	2.0
+Transport, Extracellular	METtec	met__L_e	-1.0
+Transport, Extracellular	METtec	met__L_c	1.0
+Transport, Extracellular	Nicotinic acid transport	nac_e	-1.0
+Transport, Extracellular	Nicotinic acid transport	nac_c	1.0
+Transport, Extracellular	NAt	na1_c	1.0
+Transport, Extracellular	NAt	na1_e	-1.0
+Transport, Extracellular	Nicotinamide acid uptake	ncam_c	1.0
+Transport, Extracellular	Nicotinamide acid uptake	ncam_e	-1.0
+Transport, Extracellular	NH4t3r	nh4_c	-1.0
+Transport, Extracellular	NH4t3r	h_c	1.0
+Transport, Extracellular	NH4t3r	nh4_e	1.0
+Transport, Extracellular	NH4t3r	h_e	-1.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	normete__L_c	-3.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	adp_c	2.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	h2o_c	-2.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	normete__L_e	3.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	pi_c	2.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	atp_c	-2.0
+Transport, Extracellular	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	h_c	2.0
+Transport, Extracellular	NRPPHRtu	nrpphr_c	1.0
+Transport, Extracellular	NRPPHRtu	nrpphr_e	-1.0
+Transport, Extracellular	NaKt	k_e	-2.0
+Transport, Extracellular	NaKt	adp_c	1.0
+Transport, Extracellular	NaKt	h2o_c	-1.0
+Transport, Extracellular	NaKt	na1_c	-3.0
+Transport, Extracellular	NaKt	pi_c	1.0
+Transport, Extracellular	NaKt	atp_c	-1.0
+Transport, Extracellular	NaKt	h_c	1.0
+Transport, Extracellular	NaKt	na1_e	3.0
+Transport, Extracellular	NaKt	k_c	2.0
+Transport, Extracellular	O2 transport  diffusion 	o2_c	1.0
+Transport, Extracellular	O2 transport  diffusion 	o2_e	-1.0
+Transport, Extracellular	Octadecenoate  n C181  transport in via uniport	ocdcea_c	1.0
+Transport, Extracellular	Octadecenoate  n C181  transport in via uniport	ocdcea_e	-1.0
+Transport, Extracellular	OROATP	orot_c	1.0
+Transport, Extracellular	OROATP	orot_e	-1.0
+Transport, Extracellular	OROATP	h_c	1.0
+Transport, Extracellular	OROATP	h_e	-1.0
+Transport, Extracellular	PHEtec	phe__L_e	-1.0
+Transport, Extracellular	PHEtec	phe__L_c	1.0
+Transport, Extracellular	PIt	pi_c	-1.0
+Transport, Extracellular	PIt	pi_e	1.0
+Transport, Extracellular	Puterscine transport (faciliated)	ptrc_e	-1.0
+Transport, Extracellular	Puterscine transport (faciliated)	ptrc_c	1.0
+Transport, Extracellular	PYDAMtr	pydam_c	1.0
+Transport, Extracellular	PYDAMtr	pydam_e	-1.0
+Transport, Extracellular	PYDXNtr	pydxn_c	1.0
+Transport, Extracellular	PYDXNtr	pydxn_e	-1.0
+Transport, Extracellular	PYDXtr	pydx_e	-1.0
+Transport, Extracellular	PYDXtr	pydx_c	1.0
+Transport, Extracellular	Pyruvate transport in via proton symport	pyr_e	-1.0
+Transport, Extracellular	Pyruvate transport in via proton symport	h_c	1.0
+Transport, Extracellular	Pyruvate transport in via proton symport	pyr_c	1.0
+Transport, Extracellular	Pyruvate transport in via proton symport	h_e	-1.0
+Transport, Extracellular	RIBFLVt3	ribflv_e	-1.0
+Transport, Extracellular	RIBFLVt3	ribflv_c	1.0
+Transport, Extracellular	RIBFLVt3	adp_c	1.0
+Transport, Extracellular	RIBFLVt3	h2o_c	-1.0
+Transport, Extracellular	RIBFLVt3	pi_c	1.0
+Transport, Extracellular	RIBFLVt3	atp_c	-1.0
+Transport, Extracellular	RIBFLVt3	h_c	1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	ribflv_e	1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	ribflv_c	-1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	adp_c	1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	h2o_c	-1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	pi_c	1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	atp_c	-1.0
+Transport, Extracellular	Riboflavin transport out (ATP dependent)	h_c	1.0
+Transport, Extracellular	Spermidine transport (faciliated)	spmd_e	-1.0
+Transport, Extracellular	Spermidine transport (faciliated)	spmd_c	1.0
+Transport, Extracellular	Spermine transport via proton antiport irreversible	sprm_c	1.0
+Transport, Extracellular	Spermine transport via proton antiport irreversible	sprm_e	-1.0
+Transport, Extracellular	Spermine transport via proton antiport irreversible	h_c	-1.0
+Transport, Extracellular	Spermine transport via proton antiport irreversible	h_e	1.0
+Transport, Extracellular	Thiamine monophosphate transport (passive - red blood cell)	thmmp_e	-1.0
+Transport, Extracellular	Thiamine monophosphate transport (passive - red blood cell)	thmmp_c	1.0
+Transport, Extracellular	Thiamine transprot (passive - red blood cell)	thm_e	-1.0
+Transport, Extracellular	Thiamine transprot (passive - red blood cell)	thm_c	1.0
+Transport, Extracellular	Urea transport via facilitate diffusion	urea_c	1.0
+Transport, Extracellular	Urea transport via facilitate diffusion	urea_e	-1.0
+Transport, Extracellular	URIt	uri_e	-1.0
+Transport, Extracellular	URIt	uri_c	1.0
+Intracellular source/sink	Sink adprbp(c)	adprbp_c	-1.0
+Intracellular source/sink	Sink akg(c)	akg_c	-1.0
+Intracellular source/sink	Sink band(c)	band_c	-1.0
+Intracellular source/sink	Sink bandmt(c)	bandmt_c	-1.0
+Intracellular source/sink	Sink for(c)	for_c	-1.0
+Intracellular source/sink	Sink mi1345p(c)	mi1345p_c	-1.0
+Intracellular source/sink	Sink mi134p(c)	mi134p_c	-1.0
+Intracellular source/sink	Sink mi145p(c)	mi145p_c	-1.0
+Intracellular source/sink	Sink mi14p(c)	mi14p_c	-1.0
+Intracellular source/sink	Sink pchol hs 16 0 16 0(c)	pchol_hs_16_0_16_0_c	-1.0
+Intracellular source/sink	Sink pchol hs 16 0 18 1(c)	pchol_hs_16_0_18_1_c	-1.0
+Intracellular source/sink	Sink pchol hs 16 0 18 2(c)	pchol_hs_16_0_18_2_c	-1.0
+Intracellular source/sink	Sink pchol hs 18 1 18 1(c)	pchol_hs_18_1_18_1_c	-1.0
+Intracellular source/sink	Sink pchol hs 18 1 18 2(c)	pchol_hs_18_1_18_2_c	-1.0
+Intracellular source/sink	Sink pchol hs 18 2 16 0(c)	pchol_hs_18_2_16_0_c	-1.0
+Intracellular source/sink	Sink pchol hs 18 2 18 1(c)	pchol_hs_18_2_18_1_c	-1.0
+Intracellular source/sink	Sink pe hs 16 0 16 0(c)	pe_hs_16_0_16_0_c	-1.0
+Intracellular source/sink	Sink pe hs 16 0 18 1(c)	pe_hs_16_0_18_1_c	-1.0
+Intracellular source/sink	Sink pe hs 16 0 18 2(c)	pe_hs_16_0_18_2_c	-1.0
+Intracellular source/sink	Sink pe hs 18 1 18 1(c)	pe_hs_18_1_18_1_c	-1.0
+Intracellular source/sink	Sink pe hs 18 1 18 2(c)	pe_hs_18_1_18_2_c	-1.0
+Intracellular source/sink	Sink pe hs 18 2 16 0(c)	pe_hs_18_2_16_0_c	-1.0
+Intracellular source/sink	Sink pe hs 18 2 18 1(c)	pe_hs_18_2_18_1_c	-1.0
+Urea cycle/amino group metabolism	Arginase	urea_c	1.0
+Urea cycle/amino group metabolism	Arginase	h2o_c	-1.0
+Urea cycle/amino group metabolism	Arginase	arg__L_c	-1.0
+Urea cycle/amino group metabolism	Arginase	orn_c	1.0
+Urea cycle/amino group metabolism	Ornithine Decarboxylase	co2_c	1.0
+Urea cycle/amino group metabolism	Ornithine Decarboxylase	h_c	-1.0
+Urea cycle/amino group metabolism	Ornithine Decarboxylase	orn_c	-1.0
+Urea cycle/amino group metabolism	Ornithine Decarboxylase	ptrc_c	1.0
+Urea cycle/amino group metabolism	Spermidine synthase	spmd_c	1.0
+Urea cycle/amino group metabolism	Spermidine synthase	ametam_c	-1.0
+Urea cycle/amino group metabolism	Spermidine synthase	h_c	1.0
+Urea cycle/amino group metabolism	Spermidine synthase	5mta_c	1.0
+Urea cycle/amino group metabolism	Spermidine synthase	ptrc_c	-1.0
+Urea cycle/amino group metabolism	Spermine synthase	sprm_c	1.0
+Urea cycle/amino group metabolism	Spermine synthase	spmd_c	-1.0
+Urea cycle/amino group metabolism	Spermine synthase	ametam_c	-1.0
+Urea cycle/amino group metabolism	Spermine synthase	h_c	1.0
+Urea cycle/amino group metabolism	Spermine synthase	5mta_c	1.0
+Inositol Phosphate Metabolism	MI1345PP	h2o_c	-1.0
+Inositol Phosphate Metabolism	MI1345PP	mi1345p_c	-1.0
+Inositol Phosphate Metabolism	MI1345PP	pi_c	1.0
+Inositol Phosphate Metabolism	MI1345PP	mi134p_c	1.0
+Inositol Phosphate Metabolism	MI145PK	adp_c	1.0
+Inositol Phosphate Metabolism	MI145PK	mi1345p_c	1.0
+Inositol Phosphate Metabolism	MI145PK	mi145p_c	-1.0
+Inositol Phosphate Metabolism	MI145PK	atp_c	-1.0
+Inositol Phosphate Metabolism	MI145PK	h_c	1.0
+Inositol Phosphate Metabolism	MI145PP	h2o_c	-1.0
+Inositol Phosphate Metabolism	MI145PP	pi_c	1.0
+Inositol Phosphate Metabolism	MI145PP	mi14p_c	1.0
+Inositol Phosphate Metabolism	MI145PP	mi145p_c	-1.0
+Inositol Phosphate Metabolism	Myo-inositol 1-phosphatase	mi1p__D_c	-1.0
+Inositol Phosphate Metabolism	Myo-inositol 1-phosphatase	h2o_c	-1.0
+Inositol Phosphate Metabolism	Myo-inositol 1-phosphatase	pi_c	1.0
+Inositol Phosphate Metabolism	Myo-inositol 1-phosphatase	inost_c	1.0
+Inositol Phosphate Metabolism	Myo Inositol 1 phosphate synthase	g6p_c	-1.0
+Inositol Phosphate Metabolism	Myo Inositol 1 phosphate synthase	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)	pail4p_hs_16_0_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)	pail45p_hs_16_0_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)	pail45p_hs_16_0_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)	pail4p_hs_16_0_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)	pail45p_hs_16_0_18_2_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)	pail4p_hs_16_0_18_2_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)	pail45p_hs_18_1_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)	pail4p_hs_18_1_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)	pail45p_hs_18_1_18_2_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)	pail4p_hs_18_1_18_2_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)	pail45p_hs_18_2_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)	pail4p_hs_18_2_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)	pail45p_hs_18_2_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)	pail4p_hs_18_2_18_1_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 16 0	dag_hs_16_0_16_0_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 16 0	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 16 0	pail45p_hs_16_0_16_0_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 16 0	mi145p_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 16 0	h_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 1	pail45p_hs_16_0_18_1_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 1	mi145p_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 1	dag_hs_16_0_18_1_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 2	dag_hs_16_0_18_2_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 2	pail45p_hs_16_0_18_2_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 2	mi145p_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 16 0 18 2	h_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 1	dag_hs_18_1_18_1_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 1	pail45p_hs_18_1_18_1_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 1	mi145p_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 2	dag_hs_18_1_18_2_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 2	mi145p_c	1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 2	pail45p_hs_18_1_18_2_c	-1.0
+Inositol Phosphate Metabolism	PI45PLC 18 1 18 2	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	dag_hs_18_2_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	pail45p_hs_18_2_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	mi145p_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	pail45p_hs_18_2_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	mi145p_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	dag_hs_18_2_18_1_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 16 0	pail4p_hs_16_0_16_0_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 16 0	dag_hs_16_0_16_0_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 16 0	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 16 0	mi14p_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 16 0	h_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 1	mi14p_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 1	pail4p_hs_16_0_18_1_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 1	dag_hs_16_0_18_1_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 2	dag_hs_16_0_18_2_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 2	mi14p_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 2	h_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 16 0 18 2	pail4p_hs_16_0_18_2_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 1	dag_hs_18_1_18_1_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 1	mi14p_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 1	pail4p_hs_18_1_18_1_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 2	dag_hs_18_1_18_2_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 2	mi14p_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 2	h_c	1.0
+Inositol Phosphate Metabolism	PI4PLC 18 1 18 2	pail4p_hs_18_1_18_2_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	dag_hs_18_2_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	mi14p_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	pail4p_hs_18_2_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	mi14p_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	pail4p_hs_18_2_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	dag_hs_18_2_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)	pail4p_hs_16_0_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)	pail_hs_16_0_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)	pail_hs_16_0_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)	pail4p_hs_16_0_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)	pail_hs_16_0_18_2_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)	pail4p_hs_16_0_18_2_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)	pail_hs_18_1_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)	pail4p_hs_18_1_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)	pail_hs_18_1_18_2_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)	pail4p_hs_18_1_18_2_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)	pail_hs_18_2_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)	pail4p_hs_18_2_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)	pail_hs_18_2_18_1_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)	pi_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)	pail4p_hs_18_2_18_1_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 16 0	pail_hs_16_0_16_0_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 16 0	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 16 0	dag_hs_16_0_16_0_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 16 0	h2o_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 16 0	h_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 1	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 1	pail_hs_16_0_18_1_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 1	dag_hs_16_0_18_1_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 2	dag_hs_16_0_18_2_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 2	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 2	pail_hs_16_0_18_2_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 16 0 18 2	h_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 1	pail_hs_18_1_18_1_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 1	dag_hs_18_1_18_1_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 1	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 1	h2o_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 1	h_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 2	pail_hs_18_1_18_2_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 2	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 2	h2o_c	-1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 2	dag_hs_18_1_18_2_c	1.0
+Inositol Phosphate Metabolism	PIPLC 18 1 18 2	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C16:0)	dag_hs_18_2_16_0_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C16:0)	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C16:0)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C16:0)	pail_hs_18_2_16_0_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C16:0)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C18:1)	pail_hs_18_2_18_1_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C18:1)	h2o_c	-1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C18:1)	mi1p__D_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C18:1)	h_c	1.0
+Inositol Phosphate Metabolism	Phosphatidylinositol phospholipase C (C18:2,C18:1)	dag_hs_18_2_18_1_c	1.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	nadh_c	2.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	udpg_c	-1.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	h2o_c	-1.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	udpglcur_c	1.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	h_c	3.0
+Starch and Sucrose Metabolism	UDPglucose 6-dehydrogenase	nad_c	-2.0
+Purine Catabolism	Adenosine deaminase	nh4_c	1.0
+Purine Catabolism	Adenosine deaminase	h2o_c	-1.0
+Purine Catabolism	Adenosine deaminase	adn_c	-1.0
+Purine Catabolism	Adenosine deaminase	ins_c	1.0
+Purine Catabolism	Adenosine deaminase	h_c	-1.0
+Purine Catabolism	5'-nucleotidase (IMP)	h2o_c	-1.0
+Purine Catabolism	5'-nucleotidase (IMP)	pi_c	1.0
+Purine Catabolism	5'-nucleotidase (IMP)	ins_c	1.0
+Purine Catabolism	5'-nucleotidase (IMP)	imp_c	-1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Guanosine)	gua_c	1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Guanosine)	gsn_c	-1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Guanosine)	pi_c	-1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Guanosine)	r1p_c	1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Inosine)	hxan_c	1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Inosine)	pi_c	-1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Inosine)	ins_c	-1.0
+Purine Catabolism	Purine-nucleoside phosphorylase (Inosine)	r1p_c	1.0
+Oxidative Phosphorylation	Inorganic diphosphatase	ppi_c	-1.0
+Oxidative Phosphorylation	Inorganic diphosphatase	h2o_c	-1.0
+Oxidative Phosphorylation	Inorganic diphosphatase	pi_c	2.0
+Oxidative Phosphorylation	Inorganic diphosphatase	h_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)	pa_hs_16_0_16_0_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)	pmtcoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)	alpa_hs_16_0_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)	pa_hs_16_0_18_1_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)	odecoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)	alpa_hs_16_0_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)	pa_hs_16_0_18_2_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)	lnlccoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)	alpa_hs_16_0_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)	pa_hs_18_1_18_1_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)	odecoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)	alpa_hs_18_1_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)	pa_hs_18_1_18_2_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)	lnlccoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)	alpa_hs_18_1_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)	pmtcoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)	pa_hs_18_2_16_0_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)	alpa_hs_18_2_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)	coa_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)	pa_hs_18_2_18_1_c	1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)	alpa_hs_18_2_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)	odecoa_c	-1.0
+Diacylglycerol Synthesis	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)	coa_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C16:0)	glyc3p_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C16:0)	pmtcoa_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C16:0)	alpa_hs_16_0_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C16:0)	coa_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:1)	glyc3p_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:1)	odecoa_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:1)	alpa_hs_18_1_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:1)	coa_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:2)	glyc3p_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:2)	lnlccoa_c	-1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:2)	alpa_hs_18_2_c	1.0
+Diacylglycerol Synthesis	Glycerol-3-phosphate acyltransferase (C18:2)	coa_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 16 0	pa_hs_16_0_16_0_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 16 0	dag_hs_16_0_16_0_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 16 0	h2o_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 16 0	pi_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 1	pa_hs_16_0_18_1_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 1	h2o_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 1	pi_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 1	dag_hs_16_0_18_1_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 2	dag_hs_16_0_18_2_c	1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 2	pa_hs_16_0_18_2_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 2	h2o_c	-1.0
+Diacylglycerol Synthesis	PPAP 16 0 18 2	pi_c	1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 1	pa_hs_18_1_18_1_c	-1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 1	dag_hs_18_1_18_1_c	1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 1	h2o_c	-1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 1	pi_c	1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 2	pa_hs_18_1_18_2_c	-1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 2	h2o_c	-1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 2	pi_c	1.0
+Diacylglycerol Synthesis	PPAP 18 1 18 2	dag_hs_18_1_18_2_c	1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C16:0)	dag_hs_18_2_16_0_c	1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C16:0)	pa_hs_18_2_16_0_c	-1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C16:0)	h2o_c	-1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C16:0)	pi_c	1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C18:1)	pa_hs_18_2_18_1_c	-1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C18:1)	h2o_c	-1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C18:1)	pi_c	1.0
+Diacylglycerol Synthesis	Phosphatidic acid phosphatase (C18:2, C18:1)	dag_hs_18_2_18_1_c	1.0
+Eicosanoid Metabolism	LTA4H	leuktrA4_c	-1.0
+Eicosanoid Metabolism	LTA4H	leuktrB4_c	1.0
+Eicosanoid Metabolism	LTA4H	h2o_c	-1.0
+Aminosugar Metabolism	ACGAM2E	acgam_c	-1.0
+Aminosugar Metabolism	ACGAM2E	acmana_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine kinase	acgam_c	-1.0
+Aminosugar Metabolism	N-acetylglucosamine kinase	adp_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine kinase	acgam6p_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine kinase	atp_c	-1.0
+Aminosugar Metabolism	N-acetylglucosamine kinase	h_c	1.0
+Aminosugar Metabolism	ACNAM9PL	acmanap_c	-1.0
+Aminosugar Metabolism	ACNAM9PL	pep_c	-1.0
+Aminosugar Metabolism	ACNAM9PL	acnamp_c	1.0
+Aminosugar Metabolism	ACNAM9PL	h2o_c	-1.0
+Aminosugar Metabolism	ACNAM9PL	pi_c	1.0
+Aminosugar Metabolism	ACNAMPH	acnam_c	1.0
+Aminosugar Metabolism	ACNAMPH	acnamp_c	-1.0
+Aminosugar Metabolism	ACNAMPH	h2o_c	-1.0
+Aminosugar Metabolism	ACNAMPH	pi_c	1.0
+Aminosugar Metabolism	N-Acetylneuraminate lyase	acnam_c	-1.0
+Aminosugar Metabolism	N-Acetylneuraminate lyase	acmana_c	1.0
+Aminosugar Metabolism	N-Acetylneuraminate lyase	pyr_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine-6-phosphate deacetylase	gam6p_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine-6-phosphate deacetylase	h2o_c	-1.0
+Aminosugar Metabolism	N-acetylglucosamine-6-phosphate deacetylase	ac_c	1.0
+Aminosugar Metabolism	N-acetylglucosamine-6-phosphate deacetylase	acgam6p_c	-1.0
+Aminosugar Metabolism	N-acetyl-D-mannosamine kinase	acmanap_c	1.0
+Aminosugar Metabolism	N-acetyl-D-mannosamine kinase	adp_c	1.0
+Aminosugar Metabolism	N-acetyl-D-mannosamine kinase	acmana_c	-1.0
+Aminosugar Metabolism	N-acetyl-D-mannosamine kinase	atp_c	-1.0
+Aminosugar Metabolism	N-acetyl-D-mannosamine kinase	h_c	1.0
+Aminosugar Metabolism	Glucosamine-6-phosphate deaminase	nh4_c	1.0
+Aminosugar Metabolism	Glucosamine-6-phosphate deaminase	gam6p_c	-1.0
+Aminosugar Metabolism	Glucosamine-6-phosphate deaminase	f6p_c	1.0
+Aminosugar Metabolism	Glucosamine-6-phosphate deaminase	h2o_c	-1.0
+Aminosugar Metabolism	HEX10	gam6p_c	1.0
+Aminosugar Metabolism	HEX10	adp_c	1.0
+Aminosugar Metabolism	HEX10	atp_c	-1.0
+Aminosugar Metabolism	HEX10	h_c	1.0
+Aminosugar Metabolism	HEX10	gam_c	-1.0
+ROS Detoxification	Catalase	o2_c	1.0
+ROS Detoxification	Catalase	h2o_c	2.0
+ROS Detoxification	Catalase	h2o2_c	-2.0
+Tyrosine metabolism	DOPAMT	dopa_c	-1.0
+Tyrosine metabolism	DOPAMT	3moxtyr_c	1.0
+Tyrosine metabolism	DOPAMT	amet_c	-1.0
+Tyrosine metabolism	DOPAMT	ahcys_c	1.0
+Tyrosine metabolism	DOPAMT	h_c	1.0
+Tyrosine metabolism	SALMCOM	nrpphr_c	-1.0
+Tyrosine metabolism	SALMCOM	normete__L_c	1.0
+Tyrosine metabolism	SALMCOM	amet_c	-1.0
+Tyrosine metabolism	SALMCOM	ahcys_c	1.0
+Tyrosine metabolism	SALMCOM	h_c	1.0
+Tyrosine metabolism	SALMCOM2	mepi_c	1.0
+Tyrosine metabolism	SALMCOM2	amet_c	-1.0
+Tyrosine metabolism	SALMCOM2	ahcys_c	1.0
+Tyrosine metabolism	SALMCOM2	adrnl_c	-1.0
+Tyrosine metabolism	SALMCOM2	h_c	1.0
+Citric Acid Cycle	Fumarase	fum_c	-1.0
+Citric Acid Cycle	Fumarase	mal__L_c	1.0
+Citric Acid Cycle	Fumarase	h2o_c	-1.0
+Citric Acid Cycle	Isocitrate dehydrogenase (NADP)	nadph_c	1.0
+Citric Acid Cycle	Isocitrate dehydrogenase (NADP)	akg_c	1.0
+Citric Acid Cycle	Isocitrate dehydrogenase (NADP)	icit_c	-1.0
+Citric Acid Cycle	Isocitrate dehydrogenase (NADP)	nadp_c	-1.0
+Citric Acid Cycle	Isocitrate dehydrogenase (NADP)	co2_c	1.0
+Citric Acid Cycle	Malate dehydrogenase	nadh_c	1.0
+Citric Acid Cycle	Malate dehydrogenase	mal__L_c	-1.0
+Citric Acid Cycle	Malate dehydrogenase	oaa_c	1.0
+Citric Acid Cycle	Malate dehydrogenase	h_c	1.0
+Citric Acid Cycle	Malate dehydrogenase	nad_c	-1.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	nadh_c	1.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	h2o_c	-1.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	ac_c	1.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	h_c	2.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	acald_c	-1.0
+Glycolysis/Gluconeogenesis	Aldehyde dehydrogenase (acetaldehyde, NAD)	nad_c	-1.0
+Glycolysis/Gluconeogenesis	Diphosphoglyceromutase	13dpg_c	-1.0
+Glycolysis/Gluconeogenesis	Diphosphoglyceromutase	23dpg_c	1.0
+Glycolysis/Gluconeogenesis	Diphosphoglyceromutase	h_c	1.0
+Glycolysis/Gluconeogenesis	DPGase	h2o_c	-1.0
+Glycolysis/Gluconeogenesis	DPGase	pi_c	1.0
+Glycolysis/Gluconeogenesis	DPGase	23dpg_c	-1.0
+Glycolysis/Gluconeogenesis	DPGase	3pg_c	1.0
+Glycolysis/Gluconeogenesis	Enolase	pep_c	1.0
+Glycolysis/Gluconeogenesis	Enolase	h2o_c	1.0
+Glycolysis/Gluconeogenesis	Enolase	2pg_c	-1.0
+Glycolysis/Gluconeogenesis	Fructose-bisphosphate aldolase	fdp_c	-1.0
+Glycolysis/Gluconeogenesis	Fructose-bisphosphate aldolase	dhap_c	1.0
+Glycolysis/Gluconeogenesis	Fructose-bisphosphate aldolase	g3p_c	1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	nadh_c	1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	13dpg_c	1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	pi_c	-1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	g3p_c	-1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	h_c	1.0
+Glycolysis/Gluconeogenesis	Glyceraldehyde-3-phosphate dehydrogenase	nad_c	-1.0
+Glycolysis/Gluconeogenesis	Hexokinase (D-glucose:ATP)	g6p_c	1.0
+Glycolysis/Gluconeogenesis	Hexokinase (D-glucose:ATP)	adp_c	1.0
+Glycolysis/Gluconeogenesis	Hexokinase (D-glucose:ATP)	glc__D_c	-1.0
+Glycolysis/Gluconeogenesis	Hexokinase (D-glucose:ATP)	atp_c	-1.0
+Glycolysis/Gluconeogenesis	Hexokinase (D-glucose:ATP)	h_c	1.0
+Glycolysis/Gluconeogenesis	L-lactate dehydrogenase	nadh_c	1.0
+Glycolysis/Gluconeogenesis	L-lactate dehydrogenase	lac__L_c	-1.0
+Glycolysis/Gluconeogenesis	L-lactate dehydrogenase	h_c	1.0
+Glycolysis/Gluconeogenesis	L-lactate dehydrogenase	pyr_c	1.0
+Glycolysis/Gluconeogenesis	L-lactate dehydrogenase	nad_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphofructokinase	f6p_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphofructokinase	adp_c	1.0
+Glycolysis/Gluconeogenesis	Phosphofructokinase	fdp_c	1.0
+Glycolysis/Gluconeogenesis	Phosphofructokinase	atp_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphofructokinase	h_c	1.0
+Glycolysis/Gluconeogenesis	Glucose-6-phosphate isomerase	g6p_c	-1.0
+Glycolysis/Gluconeogenesis	Glucose-6-phosphate isomerase	f6p_c	1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate kinase	13dpg_c	1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate kinase	adp_c	1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate kinase	atp_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate kinase	3pg_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate mutase	2pg_c	-1.0
+Glycolysis/Gluconeogenesis	Phosphoglycerate mutase	3pg_c	1.0
+Glycolysis/Gluconeogenesis	Phosphoglucomutase	g6p_c	1.0
+Glycolysis/Gluconeogenesis	Phosphoglucomutase	g1p_c	-1.0
+Glycolysis/Gluconeogenesis	Pyruvate kinase	pep_c	-1.0
+Glycolysis/Gluconeogenesis	Pyruvate kinase	adp_c	-1.0
+Glycolysis/Gluconeogenesis	Pyruvate kinase	atp_c	1.0
+Glycolysis/Gluconeogenesis	Pyruvate kinase	h_c	-1.0
+Glycolysis/Gluconeogenesis	Pyruvate kinase	pyr_c	1.0
+Glycolysis/Gluconeogenesis	Triose-phosphate isomerase	dhap_c	-1.0
+Glycolysis/Gluconeogenesis	Triose-phosphate isomerase	g3p_c	1.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	o2_c	-1.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	pppg9_c	1.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	h2o_c	2.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	cpppg3_c	-1.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	co2_c	2.0
+Heme Biosynthesis	Coproporphyrinogen oxidase (O2 required)	h_c	-2.0
+Heme Biosynthesis	Ferrochelatase	ppp9_c	-1.0
+Heme Biosynthesis	Ferrochelatase	fe2_c	-1.0
+Heme Biosynthesis	Ferrochelatase	h_c	2.0
+Heme Biosynthesis	Ferrochelatase	pheme_c	1.0
+Heme Biosynthesis	Hydroxymethylbilane synthase	nh4_c	4.0
+Heme Biosynthesis	Hydroxymethylbilane synthase	h2o_c	-1.0
+Heme Biosynthesis	Hydroxymethylbilane synthase	hmbil_c	1.0
+Heme Biosynthesis	Hydroxymethylbilane synthase	ppbng_c	-4.0
+Heme Biosynthesis	Porphobilinogen synthase	h2o_c	2.0
+Heme Biosynthesis	Porphobilinogen synthase	5aop_c	-2.0
+Heme Biosynthesis	Porphobilinogen synthase	h_c	1.0
+Heme Biosynthesis	Porphobilinogen synthase	ppbng_c	1.0
+Heme Biosynthesis	Protoporphyrinogen oxidase (aerobic)	ppp9_c	1.0
+Heme Biosynthesis	Protoporphyrinogen oxidase (aerobic)	o2_c	-1.5
+Heme Biosynthesis	Protoporphyrinogen oxidase (aerobic)	pppg9_c	-1.0
+Heme Biosynthesis	Protoporphyrinogen oxidase (aerobic)	h2o_c	3.0
+Heme Biosynthesis	Uroporphyrinogen-III synthase	uppg3_c	1.0
+Heme Biosynthesis	Uroporphyrinogen-III synthase	h2o_c	1.0
+Heme Biosynthesis	Uroporphyrinogen-III synthase	hmbil_c	-1.0
+Heme Biosynthesis	Uroporphyrinogen decarboxylase (uroporphyrinogen III)	uppg3_c	-1.0
+Heme Biosynthesis	Uroporphyrinogen decarboxylase (uroporphyrinogen III)	cpppg3_c	1.0
+Heme Biosynthesis	Uroporphyrinogen decarboxylase (uroporphyrinogen III)	co2_c	4.0
+Heme Biosynthesis	Uroporphyrinogen decarboxylase (uroporphyrinogen III)	h_c	-4.0
+Carnitine shuttle	C160CPT1	pmtcoa_c	-1.0
+Carnitine shuttle	C160CPT1	pmtcrn_c	1.0
+Carnitine shuttle	C160CPT1	crn_c	-1.0
+Carnitine shuttle	C160CPT1	coa_c	1.0
+Carnitine shuttle	C160 reverse	pmtcoa_c	1.0
+Carnitine shuttle	C160 reverse	pmtcrn_c	-1.0
+Carnitine shuttle	C160 reverse	crn_c	1.0
+Carnitine shuttle	C160 reverse	coa_c	-1.0
+Carnitine shuttle	C181CPT1	odecrn_c	1.0
+Carnitine shuttle	C181CPT1	crn_c	-1.0
+Carnitine shuttle	C181CPT1	odecoa_c	-1.0
+Carnitine shuttle	C181CPT1	coa_c	1.0
+Carnitine shuttle	Carnitine octadecenoyl transferase	odecrn_c	-1.0
+Carnitine shuttle	Carnitine octadecenoyl transferase	crn_c	1.0
+Carnitine shuttle	Carnitine octadecenoyl transferase	odecoa_c	1.0
+Carnitine shuttle	Carnitine octadecenoyl transferase	coa_c	-1.0
+Carnitine shuttle	LNLCCPT1	lnlccrn_c	1.0
+Carnitine shuttle	LNLCCPT1	lnlccoa_c	-1.0
+Carnitine shuttle	LNLCCPT1	crn_c	-1.0
+Carnitine shuttle	LNLCCPT1	coa_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	amp_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	ppi_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	pmtcoa_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	hdca_c	-1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	atp_c	-1.0
+Fatty acid activation	Fatty acid  CoA ligase  hexadecanoate 	coa_c	-1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	ocdcea_c	-1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	amp_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	ppi_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	odecoa_c	1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	atp_c	-1.0
+Fatty acid activation	Fatty acid  CoA ligase  octadecenoate 	coa_c	-1.0
+Fatty acid activation	FACOAL1821	lnlc_c	-1.0
+Fatty acid activation	FACOAL1821	amp_c	1.0
+Fatty acid activation	FACOAL1821	ppi_c	1.0
+Fatty acid activation	FACOAL1821	lnlccoa_c	1.0
+Fatty acid activation	FACOAL1821	atp_c	-1.0
+Fatty acid activation	FACOAL1821	coa_c	-1.0
+Fatty acid activation	Carnitine transferase	lnlccrn_c	-1.0
+Fatty acid activation	Carnitine transferase	lnlccoa_c	1.0
+Fatty acid activation	Carnitine transferase	crn_c	1.0
+Fatty acid activation	Carnitine transferase	coa_c	-1.0
+Pyrimidine Catabolism	5'-nucleotidase (UMP)	uri_c	1.0
+Pyrimidine Catabolism	5'-nucleotidase (UMP)	h2o_c	-1.0
+Pyrimidine Catabolism	5'-nucleotidase (UMP)	pi_c	1.0
+Pyrimidine Catabolism	5'-nucleotidase (UMP)	ump_c	-1.0
+Methionine Salvage	2-keto-4-methylthiobutyrate transamination	akg_c	1.0
+Methionine Salvage	2-keto-4-methylthiobutyrate transamination	glu__L_c	-1.0
+Methionine Salvage	2-keto-4-methylthiobutyrate transamination	met__L_c	1.0
+Methionine Salvage	2-keto-4-methylthiobutyrate transamination	2kmb_c	-1.0
+Methionine Salvage	1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase	o2_c	-1.0
+Methionine Salvage	1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase	dhmtp_c	-1.0
+Methionine Salvage	1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase	2kmb_c	1.0
+Methionine Salvage	1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase	for_c	1.0
+Methionine Salvage	1;2-dihydroxy-3-keto-5-methylthiopentene dioxygenase	h_c	2.0
+Methionine Salvage	Enolase-phosphatase E1	dkmpp_c	-1.0
+Methionine Salvage	Enolase-phosphatase E1	dhmtp_c	1.0
+Methionine Salvage	Enolase-phosphatase E1	h2o_c	-1.0
+Methionine Salvage	Enolase-phosphatase E1	pi_c	1.0
+Methionine Salvage	5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	dkmpp_c	1.0
+Methionine Salvage	5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	h2o_c	1.0
+Methionine Salvage	5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	5mdru1p_c	-1.0
+Methionine Salvage	5-methylthioribose-1-phosphate isomerase	5mdr1p_c	-1.0
+Methionine Salvage	5-methylthioribose-1-phosphate isomerase	5mdru1p_c	1.0
+Arginine and Proline Metabolism	Adenosylmethionine decarboxylase	ametam_c	1.0
+Arginine and Proline Metabolism	Adenosylmethionine decarboxylase	amet_c	-1.0
+Arginine and Proline Metabolism	Adenosylmethionine decarboxylase	co2_c	1.0
+Arginine and Proline Metabolism	Adenosylmethionine decarboxylase	h_c	-1.0
+Arginine and Proline Metabolism	5  methylthioadenosine phosphorylase	5mdr1p_c	1.0
+Arginine and Proline Metabolism	5  methylthioadenosine phosphorylase	ade_c	1.0
+Arginine and Proline Metabolism	5  methylthioadenosine phosphorylase	pi_c	-1.0
+Arginine and Proline Metabolism	5  methylthioadenosine phosphorylase	5mta_c	-1.0
+Methionine Metabolism	Adenosylhomocysteinase	h2o_c	-1.0
+Methionine Metabolism	Adenosylhomocysteinase	adn_c	1.0
+Methionine Metabolism	Adenosylhomocysteinase	ahcys_c	-1.0
+Methionine Metabolism	Adenosylhomocysteinase	hcys__L_c	1.0
+Methionine Metabolism	Band membrane protein-methyltransferase	bandmt_c	1.0
+Methionine Metabolism	Band membrane protein-methyltransferase	amet_c	-1.0
+Methionine Metabolism	Band membrane protein-methyltransferase	ahcys_c	1.0
+Methionine Metabolism	Band membrane protein-methyltransferase	band_c	-1.0
+Methionine Metabolism	Band membrane protein-methyltransferase	h_c	1.0
+Methionine Metabolism	Methionine adenosyltransferase	ppi_c	1.0
+Methionine Metabolism	Methionine adenosyltransferase	h2o_c	-1.0
+Methionine Metabolism	Methionine adenosyltransferase	pi_c	1.0
+Methionine Metabolism	Methionine adenosyltransferase	met__L_c	-1.0
+Methionine Metabolism	Methionine adenosyltransferase	amet_c	1.0
+Methionine Metabolism	Methionine adenosyltransferase	atp_c	-1.0
+Pentose Phosphate Pathway	Glucose 6-phosphate dehydrogenase	g6p_c	-1.0
+Pentose Phosphate Pathway	Glucose 6-phosphate dehydrogenase	6pgl_c	1.0
+Pentose Phosphate Pathway	Glucose 6-phosphate dehydrogenase	nadph_c	1.0
+Pentose Phosphate Pathway	Glucose 6-phosphate dehydrogenase	nadp_c	-1.0
+Pentose Phosphate Pathway	Glucose 6-phosphate dehydrogenase	h_c	1.0
+Pentose Phosphate Pathway	Phosphogluconate dehydrogenase	nadph_c	1.0
+Pentose Phosphate Pathway	Phosphogluconate dehydrogenase	nadp_c	-1.0
+Pentose Phosphate Pathway	Phosphogluconate dehydrogenase	ru5p__D_c	1.0
+Pentose Phosphate Pathway	Phosphogluconate dehydrogenase	6pgc_c	-1.0
+Pentose Phosphate Pathway	Phosphogluconate dehydrogenase	co2_c	1.0
+Pentose Phosphate Pathway	6-phosphogluconolactonase	6pgl_c	-1.0
+Pentose Phosphate Pathway	6-phosphogluconolactonase	h2o_c	-1.0
+Pentose Phosphate Pathway	6-phosphogluconolactonase	6pgc_c	1.0
+Pentose Phosphate Pathway	6-phosphogluconolactonase	h_c	1.0
+Pentose Phosphate Pathway	Phosphopentomutase	r5p_c	1.0
+Pentose Phosphate Pathway	Phosphopentomutase	r1p_c	-1.0
+Pentose Phosphate Pathway	Phosphoribosylpyrophosphate synthetase	r5p_c	-1.0
+Pentose Phosphate Pathway	Phosphoribosylpyrophosphate synthetase	amp_c	1.0
+Pentose Phosphate Pathway	Phosphoribosylpyrophosphate synthetase	atp_c	-1.0
+Pentose Phosphate Pathway	Phosphoribosylpyrophosphate synthetase	h_c	1.0
+Pentose Phosphate Pathway	Phosphoribosylpyrophosphate synthetase	prpp_c	1.0
+Pentose Phosphate Pathway	Ribulose 5-phosphate 3-epimerase	ru5p__D_c	-1.0
+Pentose Phosphate Pathway	Ribulose 5-phosphate 3-epimerase	xu5p__D_c	1.0
+Pentose Phosphate Pathway	Ribose-5-phosphate isomerase	r5p_c	-1.0
+Pentose Phosphate Pathway	Ribose-5-phosphate isomerase	ru5p__D_c	1.0
+Pentose Phosphate Pathway	Transaldolase	f6p_c	1.0
+Pentose Phosphate Pathway	Transaldolase	g3p_c	-1.0
+Pentose Phosphate Pathway	Transaldolase	e4p_c	1.0
+Pentose Phosphate Pathway	Transaldolase	s7p_c	-1.0
+Pentose Phosphate Pathway	Transketolase	r5p_c	-1.0
+Pentose Phosphate Pathway	Transketolase	g3p_c	1.0
+Pentose Phosphate Pathway	Transketolase	xu5p__D_c	-1.0
+Pentose Phosphate Pathway	Transketolase	s7p_c	1.0
+Pentose Phosphate Pathway	Transketolase	f6p_c	1.0
+Pentose Phosphate Pathway	Transketolase	g3p_c	1.0
+Pentose Phosphate Pathway	Transketolase	e4p_c	-1.0
+Pentose Phosphate Pathway	Transketolase	xu5p__D_c	-1.0
+Galactose metabolism	Galactokinase	gal1p_c	1.0
+Galactose metabolism	Galactokinase	adp_c	1.0
+Galactose metabolism	Galactokinase	atp_c	-1.0
+Galactose metabolism	Galactokinase	h_c	1.0
+Galactose metabolism	Galactokinase	gal_c	-1.0
+Galactose metabolism	GALOR	nadph_c	-1.0
+Galactose metabolism	GALOR	nadp_c	1.0
+Galactose metabolism	GALOR	galt_c	1.0
+Galactose metabolism	GALOR	h_c	-1.0
+Galactose metabolism	GALOR	gal_c	-1.0
+Galactose metabolism	Galactose 1 phosphate uridylyltransferase	utp_c	-1.0
+Galactose metabolism	Galactose 1 phosphate uridylyltransferase	ppi_c	1.0
+Galactose metabolism	Galactose 1 phosphate uridylyltransferase	gal1p_c	-1.0
+Galactose metabolism	Galactose 1 phosphate uridylyltransferase	udpgal_c	1.0
+Galactose metabolism	Galactose 1 phosphate uridylyltransferase	h_c	-1.0
+Galactose metabolism	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	utp_c	-1.0
+Galactose metabolism	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	ppi_c	1.0
+Galactose metabolism	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	udpg_c	1.0
+Galactose metabolism	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	g1p_c	-1.0
+Galactose metabolism	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	h_c	-1.0
+Galactose metabolism	UDPglucose 4-epimerase	udpgal_c	1.0
+Galactose metabolism	UDPglucose 4-epimerase	udpg_c	-1.0
+Galactose metabolism	UDPglucose--hexose-1-phosphate uridylyltransferase	gal1p_c	-1.0
+Galactose metabolism	UDPglucose--hexose-1-phosphate uridylyltransferase	udpgal_c	1.0
+Galactose metabolism	UDPglucose--hexose-1-phosphate uridylyltransferase	udpg_c	-1.0
+Galactose metabolism	UDPglucose--hexose-1-phosphate uridylyltransferase	g1p_c	1.0
+Pyruvate Metabolism	Hydroxyacylglutathione hydrolase	gthrd_c	1.0
+Pyruvate Metabolism	Hydroxyacylglutathione hydrolase	lgt__S_c	-1.0
+Pyruvate Metabolism	Hydroxyacylglutathione hydrolase	lac__D_c	1.0
+Pyruvate Metabolism	Hydroxyacylglutathione hydrolase	h2o_c	-1.0
+Pyruvate Metabolism	Hydroxyacylglutathione hydrolase	h_c	1.0
+Pyruvate Metabolism	Lactoylglutathione lyase	mthgxl_c	-1.0
+Pyruvate Metabolism	Lactoylglutathione lyase	gthrd_c	-1.0
+Pyruvate Metabolism	Lactoylglutathione lyase	lgt__S_c	1.0
+Pyruvate Metabolism	Malic enzyme (NADP)	nadph_c	1.0
+Pyruvate Metabolism	Malic enzyme (NADP)	mal__L_c	-1.0
+Pyruvate Metabolism	Malic enzyme (NADP)	nadp_c	-1.0
+Pyruvate Metabolism	Malic enzyme (NADP)	co2_c	1.0
+Pyruvate Metabolism	Malic enzyme (NADP)	pyr_c	1.0
+Pyruvate Metabolism	Methylglyoxal synthase	mthgxl_c	1.0
+Pyruvate Metabolism	Methylglyoxal synthase	pi_c	1.0
+Pyruvate Metabolism	Methylglyoxal synthase	dhap_c	-1.0
