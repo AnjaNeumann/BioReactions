@@ -22,6 +22,7 @@ public class Main {
 		JSONObject job = (JSONObject)jparser.parse(new FileReader("Data/Rohdaten"));
 		LinkedList<Reaction> reactionlist = new LinkedList<Reaction>();
 		Map<String,Metabolite> metabolitemap = new HashMap<String,Metabolite>();
+		Map<String,Gene> genemap = new HashMap<String,Gene>();
 		List<String> subsystemlist = new LinkedList<String>();
 		Map<String,LinkedList<Reaction>> subsystems = new HashMap<String,LinkedList<Reaction>>();
 		String subsys;
@@ -48,7 +49,7 @@ public class Main {
 		
 		for (String key : subsystems.keySet()){
 			LinkedList<Reaction> reas = subsystems.get(key);
-			List<String> metabolites = new LinkedList();
+			List<String> metabolites = new LinkedList<String>();
 			for (Reaction current : reas){
 				for (String name : current.getMetabolites().keySet()){
 					if (!metabolites.contains(name))
@@ -59,8 +60,9 @@ public class Main {
 			System.out.println(key +": "+ subsystems.get(key).size()+": "+metabolites.size());
 			mcnt +=metabolites.size();
 			
-		}		
-		JSONArray metab = (JSONArray)job.get("metabolites");
+		}
+		System.out.println("Metabolite:");
+		JSONArray metab = (JSONArray)job.get("number of all metabolites vs. number of metabolite kinds");
 		System.out.println(mcnt+ " vs "+metab.size());
 		
 		for (int i= 0; i<metab.size(); i++){
@@ -69,6 +71,16 @@ public class Main {
 			
 		
 		}
+		System.out.println("number of genes");
+		JSONArray genes = (JSONArray)job.get("genes");
+		System.out.println(genes.size());
+		
+		for (int i= 0; i<genes.size(); i++){
+			
+			genemap.put((String)((JSONObject)genes.get(i)).get("id"),new Gene((JSONObject)genes.get(i)));
+		
+		}
+		
 		FileWriter fw = new FileWriter("Data/Subsysteme");
 		fw.write("Subsystem\tReaction\tMetabolite\tValue\n");
 		for (String key : subsystems.keySet()){
