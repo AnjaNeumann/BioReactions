@@ -1,32 +1,23 @@
 package jsonConverter.graph;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-public class ReactionNode implements Node{
+public class ReactionNode extends JSONObject{
 
-	private String id;
-	private List<String> lGraphs = new ArrayList<String>(2);
+	JSONArray m_LogicGraphsList = new JSONArray();
 	
+	@SuppressWarnings("unchecked")
 	public ReactionNode(String id) {
-		this.id = id;
+		super();
+		this.put("id", id);
+		this.put("graphs", m_LogicGraphsList);
 	}
 	
-	public String getID() {
-		return id;
-	}
-
-	public JSONObject getJSON_Object() {
-		// TODO Auto-generated method stub
-		JSONObject reaktion = new JSONObject();
-		return reaktion;
-	}
-
+	@SuppressWarnings("unchecked")
 	public void addGraph(String GraphID) {
 		// TODO Auto-generated method stub
-		lGraphs.add(GraphID);
+		m_LogicGraphsList.add(GraphID);
 	}
 	
 }

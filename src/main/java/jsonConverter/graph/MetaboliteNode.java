@@ -1,65 +1,37 @@
 package jsonConverter.graph;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-public class MetaboliteNode implements Node{
-
-	private String name;
-	private String id;
-	private Compartment c;
-	private List<String> lGraphs = new ArrayList<String>(2);
+@SuppressWarnings("serial")
+public class MetaboliteNode extends JSONObject{
 	
-	public MetaboliteNode(String id, String name, Compartment compartment) {
-		this.name = name;
-		this.id = id;
-		this.c = compartment;
-	}
 	
-	public String getID() {
-		// TODO Auto-generated method stub
-		return name;
-	}
-
+	JSONArray m_LogicGraphsList = new JSONArray();
+	
 	@SuppressWarnings("unchecked")
-	public JSONObject getJSON_Object() {
-		// TODO Auto-generated method stub
-		JSONObject metabolite = new JSONObject();
-		
-		metabolite.put("id", id);
+	public MetaboliteNode(String id, String name) {
+		super();
+		this.put("id", id);
 		
 		JSONObject data = new JSONObject();
 		data.put("name", name);
-		metabolite.put("data", data);
+		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
-		meta.put("compartment", c.name().replaceAll("_", " "));
-		metabolite.put("meta", meta);
+		this.put("meta", meta);
 		
-		JSONArray graphsList = new JSONArray();
-        
-        for (String graph : lGraphs) {
-			graphsList.add(graph);
-		}
-        
-        metabolite.put("graphs", graphsList);
-		
-		return metabolite;
-	}
-	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return getJSON_Object().toJSONString();
+		this.put("graphs", m_LogicGraphsList);
 	}
 
+	@SuppressWarnings("unchecked")
 	public void addGraph(String GraphID) {
-		// TODO Auto-generated method stub
-		lGraphs.add(GraphID);
+		m_LogicGraphsList.add(GraphID);
 	}
 	
-	
+	@SuppressWarnings("unchecked")
+	public void setQuantityOfCompartment(Compartment compartment, Integer quantity)
+	{
+		this.put(compartment.getID(), quantity);
+	}
 }
