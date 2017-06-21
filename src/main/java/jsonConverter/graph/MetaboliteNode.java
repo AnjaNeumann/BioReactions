@@ -1,5 +1,7 @@
 package jsonConverter.graph;
 
+import java.util.UUID;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -7,15 +9,18 @@ import org.json.simple.JSONObject;
 public class MetaboliteNode extends JSONObject{
 	
 	
-	JSONArray m_LogicGraphsList = new JSONArray();
+	private JSONArray m_LogicGraphsList = new JSONArray();
+	final private String strUUID = UUID.randomUUID().toString();
+	
 	
 	@SuppressWarnings("unchecked")
 	public MetaboliteNode(String id, String name) {
 		super();
-		this.put("id", id);
+		this.put("id", strUUID);
 		
 		JSONObject data = new JSONObject();
 		data.put("name", name);
+		data.put("oldID", id);
 		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
@@ -30,8 +35,12 @@ public class MetaboliteNode extends JSONObject{
 	}
 	
 	@SuppressWarnings("unchecked")
-	public void setQuantityOfCompartment(Compartment compartment, Integer quantity)
+	public void setQuantityOfCompartment(String compartmentID, Integer quantity)
 	{
-		this.put(compartment.getID(), quantity);
+		this.put(compartmentID, quantity);
+	}
+
+	public String getStrUUID() {
+		return strUUID;
 	}
 }
