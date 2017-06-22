@@ -25,7 +25,7 @@ public class ReactionBlancNode extends JSONObject{
 	
 	@SuppressWarnings("unchecked")
 	public void addGraph(String GraphID) {
-		// TODO Auto-generated method stub
+		if (!m_LogicGraphsList.contains(GraphID))
 		m_LogicGraphsList.add(GraphID);
 	}
 

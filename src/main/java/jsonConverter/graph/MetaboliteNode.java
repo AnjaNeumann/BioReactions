@@ -31,6 +31,7 @@ public class MetaboliteNode extends JSONObject{
 
 	@SuppressWarnings("unchecked")
 	public void addGraph(String GraphID) {
+		if (!m_LogicGraphsList.contains(GraphID))
 		m_LogicGraphsList.add(GraphID);
 	}
 	

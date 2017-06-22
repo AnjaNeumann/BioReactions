@@ -158,8 +158,16 @@ public class Main {
 			 
 			 for (Object metaboliteName : metabolite.keySet()) {
 				String strMetaboliteName = (String) metaboliteName;
+				String strCompartmentID = null;
 				if (strMetaboliteName.contains("_"))
+				{
+					strCompartmentID = mLogicGraphs.get(strMetaboliteName.substring(strMetaboliteName.lastIndexOf('_')+1)).getStrUUID();
 					strMetaboliteName = strMetaboliteName.substring(0, strMetaboliteName.lastIndexOf('_'));
+					mMetabolites.get(strMetaboliteName).addGraph(strCompartmentID);;
+					nodeReaction.addGraph(strCompartmentID);
+				}
+				
+				
 				 Double fCoefficient = (Double) metabolite.get(metaboliteName);
 
 				 if (strsubsystemGraphUUID != null)
@@ -174,6 +182,9 @@ public class Main {
 				 } else {
 					 currentEdge = new Edge(nodeReaction.getStrUUID(), MetaboliteUUID, fCoefficient);
 				 }
+				 
+				 if (strCompartmentID != null)
+					 currentEdge.addGraph(strCompartmentID);
 				 
 				 if (strsubsystemGraphUUID != null) currentEdge.addGraph(strsubsystemGraphUUID);
 				 currentEdge.addGraph(strReactionGraphUUID);
