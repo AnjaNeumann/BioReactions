@@ -10,7 +10,7 @@ public class MetaboliteNode extends JSONObject{
 	
 	
 	private JSONArray m_LogicGraphsList = new JSONArray();
-	final private String strUUID = UUID.randomUUID().toString();
+	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
 	
 	
 	@SuppressWarnings("unchecked")

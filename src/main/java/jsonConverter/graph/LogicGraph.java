@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 @SuppressWarnings("serial")
 public class LogicGraph extends JSONObject{
 
-	final private String strUUID = UUID.randomUUID().toString();
+	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
 	
 	@SuppressWarnings("unchecked")
 	public LogicGraph(String strLable, String strName, String strOldID) {

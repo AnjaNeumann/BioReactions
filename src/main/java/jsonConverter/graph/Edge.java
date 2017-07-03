@@ -9,7 +9,7 @@ public class Edge extends JSONObject{
 	
 
 	JSONArray m_LogicGraphsList = new JSONArray();
-	final private String strUUID = UUID.randomUUID().toString();
+	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
 	
 	@SuppressWarnings("unchecked")
 	public Edge(String source, String target, Double quantity) {

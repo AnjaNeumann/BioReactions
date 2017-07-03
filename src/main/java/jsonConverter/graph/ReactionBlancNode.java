@@ -9,7 +9,7 @@ import org.json.simple.JSONObject;
 public class ReactionBlancNode extends JSONObject{
 
 	JSONArray m_LogicGraphsList = new JSONArray();
-	final private String strUUID = UUID.randomUUID().toString();
+	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
 	
 	@SuppressWarnings("unchecked")
 	public ReactionBlancNode(String name) {
