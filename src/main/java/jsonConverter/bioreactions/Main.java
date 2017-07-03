@@ -213,6 +213,7 @@ public class Main {
 		for (MetaboliteNode metabolite : mMetabolites.values()) {
 			filewriter.write(metabolite.toJSONString() + '\n');
 		}
+		filewriter.close();
 		
 	}
 
