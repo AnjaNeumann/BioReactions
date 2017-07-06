@@ -11,16 +11,16 @@ public class ReactionBlancNode extends JSONObject{
 	final private String strUUID = GradoopId.get().toString();
 	
 	@SuppressWarnings("unchecked")
-	public ReactionBlancNode(String name) {
+	public ReactionBlancNode(String label) {
 		super();
 		this.put("id", strUUID);
 		
 		JSONObject data = new JSONObject();
-		data.put("name", name);
+		data.put("type", "reaction_blank");
 		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
-		meta.put("label", "reaction_blank");
+		meta.put("label", label);
 		meta.put("graphs", m_LogicGraphsList);
 		this.put("meta", meta);
 	}

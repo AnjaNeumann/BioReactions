@@ -13,17 +13,17 @@ public class MetaboliteNode extends JSONObject{
 	
 	
 	@SuppressWarnings("unchecked")
-	public MetaboliteNode(String id, String name) {
+	public MetaboliteNode(String id, String label) {
 		super();
 		this.put("id", strUUID);
 		
 		JSONObject data = new JSONObject();
-		data.put("name", name);
+		data.put("name", "metabolite");
 		data.put("oldID", id);
 		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
-		meta.put("label", "metabolite");
+		meta.put("label", label);
 		meta.put("graphs", m_LogicGraphsList);
 		this.put("meta", meta);
 	}
