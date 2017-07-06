@@ -22,7 +22,7 @@ public class LogicGraph extends JSONObject{
 		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
-		meta.put("lable", strLable);
+		meta.put("label", strLable);
 		this.put("meta", meta);
 }
 
