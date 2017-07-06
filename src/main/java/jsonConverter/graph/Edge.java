@@ -1,23 +1,26 @@
 package jsonConverter.graph; 
 
-import java.util.UUID;
-
+import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+@SuppressWarnings("serial")
 public class Edge extends JSONObject{
 	
 
 	JSONArray m_LogicGraphsList = new JSONArray();
-	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
+	final private String strUUID = GradoopId.get().toString();
 	
 	@SuppressWarnings("unchecked")
 	public Edge(String source, String target, Double quantity) {
 		super();
+
 		this.put("id", strUUID);
         this.put("target", target);
         this.put("source", source);
-        	        
+        
+       
+        
         JSONObject dataObj = new JSONObject(); 
         if (quantity != null) dataObj.put("quantity", quantity);
         this.put("data", dataObj);

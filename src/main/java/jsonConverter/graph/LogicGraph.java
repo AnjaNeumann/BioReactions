@@ -1,13 +1,12 @@
 package jsonConverter.graph;
 
-import java.util.UUID;
-
+import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONObject;
 
 @SuppressWarnings("serial")
 public class LogicGraph extends JSONObject{
 
-	final private String strUUID = UUID.randomUUID().toString().replaceAll("-", "").substring(0, 24);
+	final private String strUUID = GradoopId.get().toString();
 	
 	@SuppressWarnings("unchecked")
 	public LogicGraph(String strLable, String strName, String strOldID) {
