@@ -178,9 +178,9 @@ public class Main {
 				 Edge currentEdge = null;
 				 if (fCoefficient < 0)
 				 {
-					 currentEdge = new Edge(MetaboliteUUID, nodeReaction.getStrUUID(), fCoefficient);
+					 currentEdge = new Edge(MetaboliteUUID, nodeReaction.getStrUUID(), fCoefficient, "input");
 				 } else {
-					 currentEdge = new Edge(nodeReaction.getStrUUID(), MetaboliteUUID, fCoefficient);
+					 currentEdge = new Edge(nodeReaction.getStrUUID(), MetaboliteUUID, fCoefficient, "output");
 				 }
 				 
 				 if (strCompartmentID != null)

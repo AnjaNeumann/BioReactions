@@ -1,7 +1,5 @@
 package jsonConverter.graph;
 
-import java.util.UUID;
-
 import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -25,9 +23,9 @@ public class MetaboliteNode extends JSONObject{
 		this.put("data", data);
 		
 		JSONObject meta = new JSONObject();
+		meta.put("label", "metabolite");
+		meta.put("graphs", m_LogicGraphsList);
 		this.put("meta", meta);
-		
-		this.put("graphs", m_LogicGraphsList);
 	}
 
 	@SuppressWarnings("unchecked")

@@ -1,7 +1,5 @@
 package jsonConverter.graph;
 
-import java.util.UUID;
-
 import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -21,7 +19,10 @@ public class ReactionBlancNode extends JSONObject{
 		data.put("name", name);
 		this.put("data", data);
 		
-		this.put("graphs", m_LogicGraphsList);
+		JSONObject meta = new JSONObject();
+		meta.put("label", "reaction_blank");
+		meta.put("graphs", m_LogicGraphsList);
+		this.put("meta", meta);
 	}
 	
 	@SuppressWarnings("unchecked")

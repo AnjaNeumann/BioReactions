@@ -12,7 +12,7 @@ public class Edge extends JSONObject{
 	final private String strUUID = GradoopId.get().toString();
 	
 	@SuppressWarnings("unchecked")
-	public Edge(String source, String target, Double quantity) {
+	public Edge(String source, String target, Double quantity, String label) {
 		super();
 
 		this.put("id", strUUID);
@@ -25,10 +25,12 @@ public class Edge extends JSONObject{
         if (quantity != null) dataObj.put("quantity", quantity);
         this.put("data", dataObj);
         
-        JSONObject metaObj = new JSONObject(); 
+        JSONObject metaObj = new JSONObject();
+        metaObj.put("label", label);
+        metaObj.put("graphs", m_LogicGraphsList);
         this.put("meta", metaObj);
         
-        this.put("graphs", m_LogicGraphsList);
+        
         
 	}
 	@SuppressWarnings("unchecked")
