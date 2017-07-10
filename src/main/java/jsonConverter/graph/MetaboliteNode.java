@@ -20,7 +20,7 @@ public class MetaboliteNode extends JSONObject{
 		this.put("id", strUUID);
 		
 		JSONObject data = new JSONObject();
-		data.put("name", "metabolite");
+		data.put("type", "metabolite");
 		data.put("oldID", id);
 		this.put("data", data);
 		

@@ -205,7 +205,7 @@ public class Main {
 		}
 		filewriter.close();
 		
-		filewriter = new FileWriter("nodes.json");
+		filewriter = new FileWriter("verticies.json");
 		for (ReactionBlancNode reactionBlancNode : lReaktions) {
 			filewriter.write(reactionBlancNode.toJSONString() + '\n');
 		}
