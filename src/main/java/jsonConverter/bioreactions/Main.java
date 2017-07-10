@@ -192,20 +192,20 @@ public class Main {
 			 }
 		}
 		
-		FileWriter filewriter = new FileWriter("edges.json");
+		FileWriter filewriter = new FileWriter("gradoop-vis/src/main/resources/data/Metabilte/graph_all/edges.json");
 		
 		for (Edge edge : lEdges) {
 			filewriter.write(edge.toJSONString() + '\n');
 		}
 		filewriter.close();
 		
-		filewriter = new FileWriter("graphs.json");
+		filewriter = new FileWriter("gradoop-vis/src/main/resources/data/Metabilte/graph_all/graphs.json");
 		for (LogicGraph graph : mLogicGraphs.values()) {
 			filewriter.write(graph.toJSONString() + '\n');
 		}
 		filewriter.close();
 		
-		filewriter = new FileWriter("verticies.json");
+		filewriter = new FileWriter("gradoop-vis/src/main/resources/data/Metabilte/graph_all/vertices.json");
 		for (ReactionBlancNode reactionBlancNode : lReaktions) {
 			filewriter.write(reactionBlancNode.toJSONString() + '\n');
 		}
