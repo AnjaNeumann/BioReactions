@@ -23,6 +23,7 @@ public class Node extends JSONObject {
 
 		data = new JSONObject();
 		data.put("type", type);
+
 		// data.put("oldID", id);
 		this.put("data", data);
 
