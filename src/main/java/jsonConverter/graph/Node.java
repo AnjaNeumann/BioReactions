@@ -51,9 +51,10 @@ public class Node extends JSONObject {
 			String strID = "";
 			for(String currentID : ClusterID)
 			{
-				System.out.println(currentID);
 				strID = strID + "," + currentID; 
 			}
+			
+			strID = strID.substring(1);
 			
 			data.put("ClusterId", strID);
 			
