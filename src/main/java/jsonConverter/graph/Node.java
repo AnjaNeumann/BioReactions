@@ -1,14 +1,19 @@
 package jsonConverter.graph;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 import org.gradoop.common.model.impl.id.GradoopId;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+
 
 @SuppressWarnings({ "unchecked", "serial" })
 public class Node extends JSONObject {
 
 	private JSONArray m_LogicGraphsList = new JSONArray();
 	private JSONObject data;
+	private ArrayList<String> ClusterID = new ArrayList<String>();
 	final private String strUUID = GradoopId.get().toString();
 
 	public Node(String id, String label, String type) {
@@ -23,13 +28,13 @@ public class Node extends JSONObject {
 
 		data = new JSONObject();
 		data.put("type", type);
-
+		
 		// data.put("oldID", id);
+		data.put("ClusterId", "NoID");
 		this.put("data", data);
 
 		JSONObject meta = new JSONObject();
 		meta.put("label", label);
-		// meta.put("label", type);
 		meta.put("graphs", m_LogicGraphsList);
 		this.put("meta", meta);
 	}
@@ -39,6 +44,24 @@ public class Node extends JSONObject {
 			m_LogicGraphsList.add(GraphID);
 	}
 
+	public void setClusterID(String strClusterID) {
+		if (strClusterID != null){
+			ClusterID.add(strClusterID);
+			Collections.sort( ClusterID);
+			String strID = "";
+			for(String currentID : ClusterID)
+			{
+				System.out.println(currentID);
+				strID = strID + "," + currentID; 
+			}
+			
+			data.put("ClusterId", strID);
+			
+		}
+	}
+
+	
+	
 	public void setQuantityOfCompartment(String compartmentID, Integer quantity) {
 		this.put(compartmentID, quantity);
 	}
