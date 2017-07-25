@@ -7,10 +7,12 @@ import org.json.simple.JSONObject;
 public class LogicGraph extends JSONObject{
 
 	final private String strUUID = GradoopId.get().toString();
+	final private String strName;
 	
 	@SuppressWarnings("unchecked")
 	public LogicGraph(String strLable, String strName, String strOldID) {
 		super();
+		this.strName = strName;
 		this.put("id", strUUID);
 		
 		JSONObject data = new JSONObject();
@@ -27,8 +29,15 @@ public class LogicGraph extends JSONObject{
 }
 
 	
+	
 	public String getStrUUID() {
 		return strUUID;
+	}
+
+
+
+	public String getStrName() {
+		return strName;
 	}
 	
 	

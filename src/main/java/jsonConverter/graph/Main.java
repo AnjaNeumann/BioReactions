@@ -76,7 +76,7 @@ public class Main {
 			}
 			if (strsubsystemGraphUUID != null)
 				nodeReaction.addGraph(strsubsystemGraphUUID);
-			nodeReaction.setClusterID(strsubsystemGraphUUID);
+			nodeReaction.setClusterID(subsystem);
 			nodeReaction.addGraph(strReactionGraphUUID);
 
 			JSONObject metabolite = (JSONObject) jsonReaction.get("metabolites");
@@ -98,7 +98,7 @@ public class Main {
 				if (strsubsystemGraphUUID != null)
 					mMetabolites.get(strMetaboliteName).addGraph(strsubsystemGraphUUID);
 				mMetabolites.get(strMetaboliteName).addGraph(strReactionGraphUUID);
-				mMetabolites.get(strMetaboliteName).setClusterID(strsubsystemGraphUUID);
+				mMetabolites.get(strMetaboliteName).setClusterID(subsystem);
 				String MetaboliteUUID = mMetabolites.get(strMetaboliteName).getStrUUID();
 
 				Edge currentEdge = null;
@@ -123,7 +123,7 @@ public class Main {
 					if (strsubsystemGraphUUID != null)
 						mGenes.get(gene).addGraph(strsubsystemGraphUUID);
 					mGenes.get(gene).addGraph(strReactionGraphUUID);
-					mGenes.get(gene).setClusterID(strsubsystemGraphUUID);
+					mGenes.get(gene).setClusterID(subsystem);
 					String GeneUUID = mGenes.get(gene).getStrUUID();
 
 					String label = "gene";
