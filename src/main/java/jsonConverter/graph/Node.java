@@ -45,19 +45,22 @@ public class Node extends JSONObject {
 	}
 
 	public void setClusterID(String strClusterID) {
-		if (strClusterID != null){
-			ClusterID.add(strClusterID);
-			Collections.sort( ClusterID);
-			String strID = "";
-			for(String currentID : ClusterID)
+		if (strClusterID != null)
+		{
+			if (!ClusterID.contains(strClusterID))
 			{
-				strID = strID + "," + currentID; 
+				ClusterID.add(strClusterID);
+				Collections.sort( ClusterID);
+				String strID = "";
+				for(String currentID : ClusterID)
+				{
+					strID = strID + "," + currentID; 
+				}
+				
+				strID = strID.substring(1);
+				
+				data.put("ClusterId", strID);
 			}
-			
-			strID = strID.substring(1);
-			
-			data.put("ClusterId", strID);
-			
 		}
 	}
 
