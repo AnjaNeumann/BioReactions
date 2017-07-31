@@ -73,6 +73,7 @@ public class Main {
 				}
 
 				strsubsystemGraphUUID = mLogicGraphs.get(subsystem).getStrUUID();
+
 			}
 			if (strsubsystemGraphUUID != null)
 				nodeReaction.addGraph(strsubsystemGraphUUID);
